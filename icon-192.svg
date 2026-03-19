@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="40" fill="#0a0e1a"/>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="30%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <!-- Heart with crack -->
+  <path d="M96 148 C60 120 36 100 36 76 C36 56 52 44 72 44 C84 44 92 52 96 58 C100 52 108 44 120 44 C140 44 156 56 156 76 C156 100 132 120 96 148Z" fill="url(#g1)" opacity="0.9"/>
+  <line x1="96" y1="70" x2="96" y2="120" stroke="#0a0e1a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="88" y1="90" x2="104" y2="100" stroke="#0a0e1a" stroke-width="3" stroke-linecap="round"/>
+  <!-- TT text -->
+  <text x="96" y="172" font-size="22" font-weight="800" text-anchor="middle" font-family="system-ui, sans-serif" fill="url(#g1)">TT</text>
+</svg>

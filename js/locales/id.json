@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Tes Sifat Toxic - Apa sifat toxicmu? | DopaBrain",
+    "description": "Temukan sifat toxicmu dengan kuis kepribadian seru ini! 8 skenario sehari-hari mengungkap tipe kamu dari 6 kemungkinan."
+  },
+  "accessibility": { "skipMain": "Langsung ke konten utama" },
+  "app": { "title": "Tes Sifat Toxic", "subtitle": "Apa sifat toxicmu?" },
+  "intro": {
+    "title": "Apa sifat toxicmu?",
+    "desc": "Semua orang punya satu. 8 skenario sehari-hari mengungkap sifat toxic rahasiamu. Tanpa menghakimi, hanya kesadaran diri.",
+    "chip1": "8 pertanyaan", "chip2": "~2 menit", "chip3": "6 tipe",
+    "socialProof": "{count}+ orang telah menemukan sifat toxic mereka",
+    "disclaimer": "Tes ini hanya untuk hiburan dan refleksi diri, bukan penilaian klinis.",
+    "start": "Temukan sifat toxicku"
+  },
+  "types": {
+    "ghoster": "Si Penghilang", "ghosterDesc": "Menghilang saat situasi jadi serius. Ahli menghindari konfrontasi.", "ghosterEmoji": "\ud83d\udc7b",
+    "overPromiser": "Si Tukang Janji", "overPromiserDesc": "Bilang iya ke semua hal, menepati setengahnya.", "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "Si Pasif-Agresif", "passiveAggressorDesc": "\"Aku baik-baik aja\" = pasti tidak baik-baik aja.", "passiveAggressorEmoji": "\ud83c\udfad",
+    "mainCharacter": "Si Tokoh Utama", "mainCharacterDesc": "Setiap situasi entah bagaimana jadi tentang kamu.", "mainCharacterEmoji": "\ud83d\udc51",
+    "serialCanceler": "Si Tukang Batal", "serialCancelerDesc": "Antusias bikin rencana, lalu menemukan alasan sempurna untuk membatalkan.", "serialCancelerEmoji": "\ud83d\udcf1",
+    "chronicComparer": "Si Tukang Banding", "chronicComparerDesc": "Mengukur kesuksesan dari highlight orang lain.", "chronicComparerEmoji": "\u2696\ufe0f"
+  },
+  "question": {
+    "0": "Temanmu mengirim pesan \"kita perlu bicara\". Apa yang kamu lakukan?",
+    "1": "Seseorang mengambil kredit atas idemu di kantor.",
+    "2": "Kamu punya rencana dengan teman tapi sofamu terlihat sangat nyaman.",
+    "3": "Temanmu posting foto liburan keren sementara kamu masih kerja.",
+    "4": "Kamu janji membantu temanmu pindahan akhir pekan ini.",
+    "5": "Seseorang bertanya \"kamu marah sama aku?\"",
+    "6": "Temanmu baru saja dapat promosi besar.",
+    "7": "Kamu terlambat 20 menit untuk bertemu seseorang."
+  },
+  "option": {
+    "0a": "Baca, panik, dan tidak balas selama 3 hari",
+    "0b": "Langsung menyiapkan pidato minta maaf untuk sesuatu yang mungkin kamu lakukan atau tidak",
+    "0c": "Balas \"iya, kenapa?\" lalu habiskan 4 jam menganalisis semua kemungkinan makna",
+    "0d": "Balas \"wkwk aku juga\" tanpa baca pesan lengkapnya",
+    "1a": "Diam tapi pasif-agresif CC semua orang di email asli",
+    "1b": "Konfrontasi di kepala... di dunia nyata senyum dan mati di dalam",
+    "1c": "Mulai cerita bagaimana KAMU yang dapat ide itu, membuat semua tentang kejeniusanmu",
+    "1d": "Langsung membandingkan diri dan meragukan kemampuanmu",
+    "2a": "Batalkan dengan alasan kreatif yang kamu sempurnakan sepanjang hari",
+    "2b": "Pergi tapi mengeluh sepanjang waktu betapa lelahnya kamu",
+    "2c": "Posting foto sofa dengan caption \"kadang self-care menang\" dan ghost grup chat",
+    "2d": "Pergi lalu ceritakan ke semua orang bahwa kamu hampir tidak datang",
+    "3a": "Like foto sambil dalam hati menghitung perbandingan hidupnya vs hidupmu",
+    "3b": "Langsung merencanakan liburanmu sendiri untuk mengalahkan mereka",
+    "3c": "Kirim komentar dukungan, lalu curhat ke orang lain betapa tidak adilnya hidup",
+    "3d": "Bisukan story mereka demi kesehatan mentalmu dan pura-pura tidak lihat",
+    "4a": "Datang terlambat bawa kopi dan kebanyakan cuma ngawasin",
+    "4b": "Batalkan pagi-pagi dengan alasan yang mencurigakan spesifik",
+    "4c": "Pergi tapi menghabiskan waktu cerita betapa lebih sulitnya pindahan KAMU dulu",
+    "4d": "Bilang iya tapi juga janji hal berbeda ke 3 orang lain di hari yang sama",
+    "5a": "\"Aku baik-baik aja\" (tidak baik-baik aja)",
+    "5b": "Ghost mereka sehari untuk \"memproses perasaan\"",
+    "5c": "Mulai monolog 20 menit tentang perasaan KAMU dan bagaimana KAMU terpengaruh",
+    "5d": "Bilang tidak lalu langsung cek Instagram mereka apakah mereka lebih seru darimu",
+    "6a": "Ucapkan selamat sambil diam-diam menghitung seberapa jauh tertinggal",
+    "6b": "Ubah percakapan jadi tentang perjuangan karir KAMU",
+    "6c": "Janji mengajak merayakan, lalu terus menjadwal ulang",
+    "6d": "Kirim ucapan selamat lalu tinggalkan mereka di-read seminggu",
+    "7a": "Kirim \"udah hampir sampai!\" padahal belum keluar rumah",
+    "7b": "Datang terlambat dan langsung bikin situasi tentang betapa gilanya hari KAMU",
+    "7c": "Ghost pesan \"kamu dimana?\" dan muncul seolah tidak terjadi apa-apa",
+    "7d": "Membandingkan ketepatan waktumu dengan orang lain dan memutuskan kamu masih lebih baik"
+  },
+  "result": {
+    "title": "Sifat toxicmu adalah...",
+    "desc": "Jangan khawatir, semua orang punya satu. Langkah pertama adalah kesadaran!",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki profil toxic yang sama denganmu",
+    "tipsTitle": "Tips perbaikan diri", "personalTips": "Tips pertumbuhan personal",
+    "retry": "Coba lagi", "moreTests": "Tes lainnya", "sharePrompt": "Bagikan hasilmu!"
+  },
+  "tips": {
+    "ghoster": "Saat ingin menghilang, coba kirim balasan singkat saja. \"Aku butuh waktu\" lebih baik dari diam.",
+    "overPromiser": "Sebelum bilang iya, jeda 5 detik. Cek kalendermu. Boleh kok bilang \"aku pikir-pikir dulu\".",
+    "passiveAggressor": "Latih menyebutkan perasaanmu langsung. \"Aku tersakiti saat...\" lebih jujur dari \"aku baik-baik aja\".",
+    "mainCharacter": "Coba aturan 2:1 \u2014 tanyakan 2 hal tentang orang lain sebelum cerita 1 hal tentangmu.",
+    "serialCanceler": "Hanya komit pada rencana yang membuatmu antusias SEKARANG. Kualitas > kuantitas.",
+    "chronicComparer": "Berhenti follow akun yang memicu perbandingan. Ingat: kamu membandingkan behind-the-scenes-mu dengan highlight mereka.",
+    "general": "Kesadaran diri adalah langkah pertama menuju pertumbuhan. Mengikuti tes ini menunjukkan kematangan emosional."
+  },
+  "share": {
+    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
+    "copy": "Salin link", "copied": "Tersalin!",
+    "twitterText": "Sifat toxicku: {type}! Punyamu apa? Cari tahu:"
+  },
+  "related": {
+    "eqTest": "Tes EQ", "overthinkerTest": "Tes Overthinking", "stressResponse": "Respons Stres",
+    "anxietyType": "Tipe Kecemasan", "burnoutTest": "Tes Burnout", "redFlagTest": "Tes Red Flag"
+  }
+}

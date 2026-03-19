@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Toksik \u00d6zellik Testi - Senin toksik \u00f6zelli\u011fin ne? | DopaBrain",
+    "description": "E\u011flenceli ki\u015filik testiyle toksik \u00f6zelli\u011fini ke\u015ffet! 8 g\u00fcnl\u00fck senaryo ile 6 tipten hangisi oldu\u011funu \u00f6\u011fren."
+  },
+  "accessibility": { "skipMain": "Ana i\u00e7eri\u011fe atla" },
+  "app": { "title": "Toksik \u00d6zellik Testi", "subtitle": "Senin toksik \u00f6zelli\u011fin ne?" },
+  "intro": {
+    "title": "Senin toksik \u00f6zelli\u011fin ne?",
+    "desc": "Herkesin bir tanesi var. 8 g\u00fcnl\u00fck senaryo gizli toksik \u00f6zelli\u011fini ortaya \u00e7\u0131kar\u0131r. Yarg\u0131s\u0131z, sadece fark\u0131ndal\u0131k.",
+    "chip1": "8 soru", "chip2": "~2 dk", "chip3": "6 tip",
+    "socialProof": "{count}+ ki\u015fi toksik \u00f6zelli\u011fini ke\u015ffetti",
+    "disclaimer": "Bu test sadece e\u011flence ve \u00f6z-d\u00fc\u015f\u00fcnce i\u00e7indir, klinik de\u011ferlendirme de\u011fildir.",
+    "start": "Toksik \u00f6zelli\u011fimi ke\u015ffet"
+  },
+  "types": {
+    "ghoster": "Hayalet", "ghosterDesc": "I\u015fler ciddile\u015fince kaybolur. Y\u00fczle\u015fmeden ka\u00e7\u0131n\u0131r.", "ghosterEmoji": "\ud83d\udc7b",
+    "overPromiser": "A\u015f\u0131r\u0131 S\u00f6z Veren", "overPromiserDesc": "Her \u015feye evet der, yar\u0131s\u0131n\u0131 yerine getirir.", "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "Pasif-Agresif", "passiveAggressorDesc": "\"Ben iyiyim\" = kesinlikle iyi de\u011fil.", "passiveAggressorEmoji": "\ud83c\udfad",
+    "mainCharacter": "Ana Karakter", "mainCharacterDesc": "Her durum bir \u015fekilde seninle ilgili olur.", "mainCharacterEmoji": "\ud83d\udc51",
+    "serialCanceler": "Seri \u0130ptalci", "serialCancelerDesc": "Hevesle plan yapar, sonra m\u00fckemmel bahaneyi bulur.", "serialCancelerEmoji": "\ud83d\udcf1",
+    "chronicComparer": "Kronik Kar\u015f\u0131la\u015ft\u0131r\u0131c\u0131", "chronicComparerDesc": "Ba\u015far\u0131y\u0131 ba\u015fkalar\u0131n\u0131n en iyi anlar\u0131yla \u00f6l\u00e7er.", "chronicComparerEmoji": "\u2696\ufe0f"
+  },
+  "question": {
+    "0": "Arkada\u015f\u0131n \"konu\u015fmam\u0131z laz\u0131m\" diye mesaj at\u0131yor. Ne yapars\u0131n?",
+    "1": "Birisi i\u015fte senin fikrini sahipleniyor.",
+    "2": "Arkada\u015flar\u0131nla plan\u0131n var ama kanepen \u00e7ok rahat g\u00f6r\u00fcn\u00fcyor.",
+    "3": "Arkada\u015f\u0131n harika tatil foto\u011flar\u0131 payla\u015f\u0131yor, sen ise i\u015ftesin.",
+    "4": "Bu hafta sonu arkada\u015f\u0131na ta\u015f\u0131nmada yard\u0131m edece\u011fine s\u00f6z verdin.",
+    "5": "Biri sana \"bana k\u0131zg\u0131n m\u0131s\u0131n?\" diye soruyor.",
+    "6": "Arkada\u015f\u0131n b\u00fcy\u00fck bir terfi ald\u0131.",
+    "7": "Biriyle bulu\u015fmaya 20 dakika ge\u00e7 kal\u0131yorsun."
+  },
+  "option": {
+    "0a": "Okuyorsun, panikleyorsun ve 3 g\u00fcn cevap vermiyorsun",
+    "0b": "Hemen yapm\u0131\u015f ya da yapmam\u0131\u015f olabilece\u011fin bir \u015fey i\u00e7in \u00f6z\u00fcr konu\u015fmas\u0131 haz\u0131rl\u0131yorsun",
+    "0c": "\"Tamam, noldu?\" diye yan\u0131t ver, sonra 4 saat t\u00fcm olas\u0131 anlamlar\u0131 analiz et",
+    "0d": "Mesaj\u0131n tamam\u0131n\u0131 okumadan \"ayn\u0131\" diye yan\u0131t veriyorsun",
+    "1a": "Hi\u00e7bir \u015fey demiyorsun ama pasif-agresif bir \u015fekilde orijinal e-postan\u0131 herkese CC'liyorsun",
+    "1b": "Kafanda hesap soruyorsun... ger\u00e7ekte g\u00fcl\u00fcms\u00fcyorsun ve i\u00e7ten i\u00e7e \u00f6l\u00fcyorsun",
+    "1c": "O fikri SEN\u0130N nas\u0131l buldu\u011funu anlatmaya ba\u015fl\u0131yorsun",
+    "1d": "Hemen onlarla kar\u015f\u0131la\u015ft\u0131r\u0131p kendi yetene\u011finden \u015f\u00fcphe ediyorsun",
+    "2a": "G\u00fcn boyu m\u00fckemmelle\u015ftirdi\u011fin yarat\u0131c\u0131 bir bahaneyle iptal ediyorsun",
+    "2b": "Gidiyorsun ama s\u00fcrekli ne kadar yorgun oldu\u011fundan \u015fik\u00e2yet ediyorsun",
+    "2c": "Kanepe foto\u011fraf\u0131 payla\u015f\u0131p \"bazen \u00f6z bak\u0131m kazan\u0131r\" yaz\u0131yorsun ve grubu g\u00f6rmezden geliyorsun",
+    "2d": "Gidip orada herkese neredeyse gelmeyece\u011fini anlat\u0131yorsun",
+    "3a": "Foto\u011fraf\u0131 be\u011fenirken i\u00e7inden onlar\u0131n hayat\u0131yla kendininkini k\u0131yasl\u0131yorsun",
+    "3b": "Onlar\u0131 ge\u00e7mek i\u00e7in hemen kendi tatilini planl\u0131yorsun",
+    "3c": "Destek yorumu yap\u0131p ba\u015fka birine hayat\u0131n ne kadar adaletsiz oldu\u011funu s\u00f6yl\u00fcyorsun",
+    "3d": "Ruh sa\u011fl\u0131\u011f\u0131n i\u00e7in hikayelerini susturup g\u00f6rmemi\u015f gibi yap\u0131yorsun",
+    "4a": "Ge\u00e7 kal\u0131p kahveyle gelip genelde sadece g\u00f6zetliyorsun",
+    "4b": "Sabah \u015f\u00fcpheli derecede spesifik bir bahaneyle iptal ediyorsun",
+    "4c": "Gidip SEN\u0130N son ta\u015f\u0131nman\u0131n ne kadar zor oldu\u011funu anlat\u0131yorsun",
+    "4d": "Evet diyorsun ama ayn\u0131 g\u00fcn 3 ki\u015fiye daha farkl\u0131 \u015feyler s\u00f6z veriyorsun",
+    "5a": "\"Ben iyiyim\" (iyi de\u011filsin)",
+    "5b": "\"Duygular\u0131n\u0131 i\u015flemek\" i\u00e7in bir g\u00fcn g\u00f6rmezden geliyorsun",
+    "5c": "SEN\u0130N duyguların ve SEN\u0130N nas\u0131l etkilendi\u011fin hakk\u0131nda 20 dakikal\u0131k monologa ba\u015fl\u0131yorsun",
+    "5d": "Hay\u0131r diyorsun ama hemen onlar\u0131n Instagram'\u0131n\u0131 kontrol ediyorsun",
+    "6a": "Tebrik ederken gizlice ne kadar geride oldu\u011funu hesapl\u0131yorsun",
+    "6b": "Konu\u015fmay\u0131 SEN\u0130N kariyer m\u00fccadelene \u00e7eviriyorsun",
+    "6c": "Kutlama yeme\u011fi s\u00f6z\u00fc verip s\u00fcrekli erteliyorsun",
+    "6d": "Tebrik mesaj\u0131 at\u0131p bir hafta g\u00f6r\u00fcld\u00fcde b\u0131rak\u0131yorsun",
+    "7a": "Hen\u00fcz evden \u00e7\u0131kmam\u0131\u015fken \"neredeyse geldim!\" yaz\u0131yorsun",
+    "7b": "Ge\u00e7 gelip hemen SEN\u0130N g\u00fcn\u00fcn ne kadar \u00e7\u0131lg\u0131n oldu\u011funu anlat\u0131yorsun",
+    "7c": "\"Neredesin?\" mesajlar\u0131n\u0131 g\u00f6rmezden gelip hi\u00e7bir \u015fey olmam\u0131\u015f gibi geliyorsun",
+    "7d": "Kendi dakikli\u011fini ba\u015fkalar\u0131yla k\u0131yasl\u0131yorsun ve hala daha iyi oldu\u011funa karar veriyorsun"
+  },
+  "result": {
+    "title": "Senin toksik \u00f6zelli\u011fin...",
+    "desc": "Endi\u015felenme, herkesin bir tanesi var. \u0130lk ad\u0131m fark\u0131ndal\u0131k!",
+    "percentileStat": "Kat\u0131l\u0131mc\u0131lar\u0131n sadece <strong>{percent}%</strong>'i senin toksik \u00f6zellik profiline sahip",
+    "tipsTitle": "\u00d6z-geli\u015fim ipular\u0131", "personalTips": "Ki\u015fisel b\u00fcy\u00fcme ipular\u0131",
+    "retry": "Tekrar dene", "moreTests": "Daha fazla test", "sharePrompt": "Sonular\u0131n\u0131 payla\u015f!"
+  },
+  "tips": {
+    "ghoster": "Kaybolmak istedi\u011finde, k\u0131sa bir yan\u0131t bile g\u00f6ndermeyi dene. \"Biraz zamana ihtiyac\u0131m var\" sessizlikten iyidir.",
+    "overPromiser": "Evet demeden \u00f6nce 5 saniye dur. Takvimini kontrol et. \"D\u00fc\u015f\u00fcneyim\" demek normal.",
+    "passiveAggressor": "Duygular\u0131n\u0131 do\u011frudan ifade etme prati\u011fi yap. \"Ben iyiyim\"den \"...\u015funu yapt\u0131\u011f\u0131nda incinmi\u015ftim\" daha d\u00fcr\u00fcst.",
+    "mainCharacter": "2:1 kural\u0131n\u0131 dene \u2014 kendin hakk\u0131nda 1 \u015fey payla\u015fmadan \u00f6nce ba\u015fkalar\u0131na 2 soru sor.",
+    "serialCanceler": "Sadece \u015fu an heyecanland\u0131ran planlar i\u00e7in s\u00f6z ver. Kalite > miktar.",
+    "chronicComparer": "Kar\u015f\u0131la\u015ft\u0131rmay\u0131 tetikleyen hesaplar\u0131 takibi b\u0131rak. Unutma: kendi kulis ard\u0131n\u0131 ba\u015fkalar\u0131n\u0131n en iyi anlar\u0131yla kar\u015f\u0131la\u015ft\u0131r\u0131yorsun.",
+    "general": "\u00d6z fark\u0131ndal\u0131k b\u00fcy\u00fcmenin ilk ad\u0131m\u0131d\u0131r. Bu testi yapm\u0131\u015f olman duygusal olgunlu\u011fu g\u00f6sterir."
+  },
+  "share": {
+    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
+    "copy": "Link kopyala", "copied": "Kopyaland\u0131!",
+    "twitterText": "Benim toksik \u00f6zelli\u011fim: {type}! Seninki ne? \u00d6\u011fren:"
+  },
+  "related": {
+    "eqTest": "EQ Testi", "overthinkerTest": "A\u015f\u0131r\u0131 D\u00fc\u015f\u00fcnme Testi", "stressResponse": "Stres Tepkisi",
+    "anxietyType": "Kayg\u0131 Tipi", "burnoutTest": "T\u00fckenmeli\u015flik Testi", "redFlagTest": "K\u0131rm\u0131z\u0131 Bayrak Testi"
+  }
+}

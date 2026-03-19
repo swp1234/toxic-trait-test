@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "Toxic Trait Test - What's Your Toxic Trait? | DopaBrain",
+    "description": "Discover your toxic trait with this fun personality quiz! 8 relatable scenarios reveal if you're The Ghoster, Over-Promiser, Passive-Aggressor, Main Character, Serial Canceler, or Chronic Comparer."
+  },
+  "accessibility": {
+    "skipMain": "Skip to main content"
+  },
+  "app": {
+    "title": "Toxic Trait Test",
+    "subtitle": "What's Your Toxic Trait?"
+  },
+  "intro": {
+    "title": "What's Your Toxic Trait?",
+    "desc": "We all have one. 8 everyday scenarios reveal your secret toxic trait. No judgment, just self-awareness.",
+    "chip1": "8 Questions",
+    "chip2": "~2 min",
+    "chip3": "6 Types",
+    "socialProof": "{count}+ people discovered their toxic trait",
+    "disclaimer": "This test is for fun and self-reflection only. Not a clinical assessment.",
+    "start": "Expose My Toxic Trait"
+  },
+  "types": {
+    "ghoster": "The Ghoster",
+    "ghosterDesc": "Disappears when things get real. Avoids confrontation at all costs.",
+    "ghosterEmoji": "\uD83D\uDC7B",
+    "overPromiser": "The Over-Promiser",
+    "overPromiserDesc": "Says yes to everything, delivers on half. Good intentions, questionable follow-through.",
+    "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "The Passive-Aggressor",
+    "passiveAggressorDesc": "\"I'm fine\" = definitely not fine. Master of the loaded sigh.",
+    "passiveAggressorEmoji": "\uD83C\uDFAD",
+    "mainCharacter": "The Main Character",
+    "mainCharacterDesc": "Every situation somehow becomes about you. You didn't mean to steal the spotlight... or did you?",
+    "mainCharacterEmoji": "\uD83D\uDC51",
+    "serialCanceler": "The Serial Canceler",
+    "serialCancelerDesc": "Makes plans enthusiastically, then finds the perfect excuse to cancel. Your couch is your soulmate.",
+    "serialCancelerEmoji": "\uD83D\uDCF1",
+    "chronicComparer": "The Chronic Comparer",
+    "chronicComparerDesc": "Measures success against everyone else's highlight reel. Instagram is your frenemy.",
+    "chronicComparerEmoji": "\u2696\uFE0F"
+  },
+  "question": {
+    "0": "Your friend texts \"we need to talk.\" What do you do?",
+    "1": "Someone takes credit for your idea at work.",
+    "2": "You made plans with friends but your couch looks really comfy right now.",
+    "3": "Your friend posts amazing vacation photos while you're stuck at work.",
+    "4": "You said you'd help a friend move this weekend.",
+    "5": "Someone asks you \"are you mad at me?\"",
+    "6": "Your friend just got a big promotion.",
+    "7": "You're running 20 minutes late to meet someone."
+  },
+  "option": {
+    "0a": "Read it, panic, and don't reply for 3 days",
+    "0b": "Immediately start planning your apology speech for something you may or may not have done",
+    "0c": "Reply \"sure, what's up?\" then spend 4 hours analyzing every possible meaning",
+    "0d": "Text back \"lol same\" without reading the full message",
+    "1a": "Say nothing but passive-aggressively CC your original email to everyone",
+    "1b": "Confront them... in your head. In real life, you smile and die inside",
+    "1c": "Start telling the story of how YOU came up with it, making it about your genius",
+    "1d": "Immediately compare yourself to them and wonder if you're even good at your job",
+    "2a": "Cancel with a creative excuse you've been perfecting all day",
+    "2b": "Go but complain the entire time about how tired you are",
+    "2c": "Post a story of your couch saying \"sometimes self-care wins\" and ghost the group chat",
+    "2d": "Go, then tell everyone at the hangout about that time YOU almost stayed home",
+    "3a": "Like the photo while internally calculating how their life compares to yours",
+    "3b": "Start planning your own vacation immediately to one-up them",
+    "3c": "Send a supportive comment, then vent to someone else about how unfair life is",
+    "3d": "Mute their stories for your own mental health and pretend you never saw it",
+    "4a": "\"Help\" by showing up late with coffee and mostly supervising",
+    "4b": "Cancel the morning of with a suspiciously specific excuse",
+    "4c": "Go but spend the whole time talking about YOUR last move and how much harder it was",
+    "4d": "Say yes to helping but also promise three other people different things that same day",
+    "5a": "\"I'm fine\" (you are not fine)",
+    "5b": "Ghost them for a day to \"process your feelings\"",
+    "5c": "Launch into a 20-minute monologue about YOUR feelings and how YOU were affected",
+    "5d": "Say no but immediately check their Instagram to see if they're having more fun than you",
+    "6a": "Congratulate them while secretly calculating how far behind you are",
+    "6b": "Make the conversation about YOUR career struggles and upcoming plans",
+    "6c": "Promise to take them out to celebrate, then keep rescheduling",
+    "6d": "Send a congratulations text, then leave them on read for the next week",
+    "7a": "Send \"almost there!\" when you haven't left your house yet",
+    "7b": "Arrive late and immediately make the situation about how crazy YOUR day has been",
+    "7c": "Ghost their \"where are you?\" texts and show up acting like nothing happened",
+    "7d": "Mentally compare your punctuality to everyone else's and decide you're still better"
+  },
+  "result": {
+    "title": "Your Toxic Trait Is...",
+    "desc": "Don't worry, we all have one. The first step is awareness!",
+    "percentileStat": "Only <strong>{percent}%</strong> of people share your exact toxic trait profile",
+    "tipsTitle": "Self-Improvement Tips",
+    "personalTips": "Personalized Growth Tips",
+    "retry": "Try Again",
+    "moreTests": "Explore More Tests",
+    "sharePrompt": "Share your results!"
+  },
+  "tips": {
+    "ghoster": "Next time you feel like disappearing, try sending even a short reply. \"I need some time\" is better than silence.",
+    "overPromiser": "Before saying yes, pause for 5 seconds. Check your calendar. It's okay to say \"let me think about it.\"",
+    "passiveAggressor": "Practice naming your feelings directly. \"I felt hurt when...\" is more honest than \"I'm fine.\"",
+    "mainCharacter": "Try the 2:1 rule \u2014 ask 2 questions about others before sharing 1 thing about yourself.",
+    "serialCanceler": "Only commit to plans you'd be excited about RIGHT NOW. Quality > quantity of social commitments.",
+    "chronicComparer": "Unfollow accounts that trigger comparison. Remember: you're comparing your behind-the-scenes to their highlight reel.",
+    "general": "Self-awareness is the first step to growth. The fact that you took this test shows emotional maturity."
+  },
+  "share": {
+    "kakao": "KakaoTalk",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copy": "Copy Link",
+    "copied": "Copied!",
+    "twitterText": "My toxic trait is: {type}! What's yours? Find out:"
+  },
+  "related": {
+    "eqTest": "EQ Test",
+    "overthinkerTest": "Overthinker Test",
+    "stressResponse": "Stress Response",
+    "anxietyType": "Anxiety Type",
+    "burnoutTest": "Burnout Test",
+    "redFlagTest": "Red Flag Test"
+  }
+}

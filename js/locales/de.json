@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Toxische Eigenschaft Test - Was ist deine toxische Eigenschaft? | DopaBrain",
+    "description": "Entdecke deine toxische Eigenschaft mit diesem lustigen Quiz! 8 allt\u00e4gliche Szenarien zeigen deinen Typ aus 6 M\u00f6glichkeiten."
+  },
+  "accessibility": { "skipMain": "Zum Hauptinhalt springen" },
+  "app": { "title": "Toxische Eigenschaft Test", "subtitle": "Was ist deine toxische Eigenschaft?" },
+  "intro": {
+    "title": "Was ist deine toxische Eigenschaft?",
+    "desc": "Jeder hat eine. 8 Alltagsszenarien enth\u00fcllen deine geheime toxische Eigenschaft. Ohne Urteil, nur Selbsterkenntnis.",
+    "chip1": "8 Fragen", "chip2": "~2 Min", "chip3": "6 Typen",
+    "socialProof": "{count}+ Menschen haben ihre toxische Eigenschaft entdeckt",
+    "disclaimer": "Dieser Test dient nur zur Unterhaltung und Selbstreflexion, keine klinische Bewertung.",
+    "start": "Meine toxische Eigenschaft entdecken"
+  },
+  "types": {
+    "ghoster": "Der Geist", "ghosterDesc": "Verschwindet, wenn es ernst wird. Vermeidet Konfrontation.", "ghosterEmoji": "\ud83d\udc7b",
+    "overPromiser": "Der \u00dcber-Versprecher", "overPromiserDesc": "Sagt zu allem Ja, h\u00e4lt die H\u00e4lfte.", "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "Der Passiv-Aggressive", "passiveAggressorDesc": "\"Mir geht's gut\" = definitiv nicht gut.", "passiveAggressorEmoji": "\ud83c\udfad",
+    "mainCharacter": "Der Hauptcharakter", "mainCharacterDesc": "Jede Situation dreht sich irgendwie um dich.", "mainCharacterEmoji": "\ud83d\udc51",
+    "serialCanceler": "Der Serien-Absager", "serialCancelerDesc": "Macht begeistert Pl\u00e4ne, findet dann die perfekte Ausrede.", "serialCancelerEmoji": "\ud83d\udcf1",
+    "chronicComparer": "Der Chronische Vergleicher", "chronicComparerDesc": "Misst Erfolg an den Highlights anderer.", "chronicComparerEmoji": "\u2696\ufe0f"
+  },
+  "question": {
+    "0": "Dein Freund schreibt \"wir m\u00fcssen reden\". Was machst du?",
+    "1": "Jemand nimmt bei der Arbeit den Verdienst f\u00fcr deine Idee.",
+    "2": "Du hast Pl\u00e4ne mit Freunden, aber dein Sofa sieht sehr gem\u00fctlich aus.",
+    "3": "Dein Freund postet tolle Urlaubsfotos w\u00e4hrend du arbeitest.",
+    "4": "Du hast versprochen, am Wochenende beim Umzug zu helfen.",
+    "5": "Jemand fragt dich \"bist du sauer auf mich?\"",
+    "6": "Dein Freund hat gerade eine gro\u00dfe Bef\u00f6rderung bekommen.",
+    "7": "Du bist 20 Minuten zu sp\u00e4t zu einem Treffen."
+  },
+  "option": {
+    "0a": "Liest es, ger\u00e4tst in Panik und antwortest 3 Tage nicht",
+    "0b": "Bereitest sofort eine Entschuldigungsrede vor",
+    "0c": "Antwortest \"klar, was ist los?\" und analysierst 4 Stunden alle Bedeutungen",
+    "0d": "Antwortest \"lol same\" ohne die ganze Nachricht zu lesen",
+    "1a": "Sagst nichts, aber setzt passiv-aggressiv alle in CC der Original-E-Mail",
+    "1b": "Konfrontierst sie in deinem Kopf... in Wirklichkeit l\u00e4chelst du und stirbst innerlich",
+    "1c": "Erz\u00e4hlst, wie DU die Idee hattest, und machst alles \u00fcber dein Genie",
+    "1d": "Vergleichst dich sofort mit ihnen und zweifelst an deiner F\u00e4higkeit",
+    "2a": "Sagst ab mit einer kreativen Ausrede, die du den ganzen Tag perfektioniert hast",
+    "2b": "Gehst hin, beschwerst dich aber die ganze Zeit wie m\u00fcde du bist",
+    "2c": "Postest ein Sofafoto mit \"manchmal gewinnt Self-Care\" und ignorierst den Chat",
+    "2d": "Gehst hin und erz\u00e4hlst allen, dass du fast zu Hause geblieben w\u00e4rst",
+    "3a": "Likest das Foto w\u00e4hrend du innerlich ihr Leben mit deinem vergleichst",
+    "3b": "Planst sofort deinen eigenen Urlaub um sie zu \u00fcbertreffen",
+    "3c": "Schreibst einen unterst\u00fctzenden Kommentar, beschwerst dich dann bei jemand anderem",
+    "3d": "Stummschaltest ihre Stories f\u00fcr deine mentale Gesundheit",
+    "4a": "Kommst sp\u00e4t mit Kaffee und beaufsichtigst haupts\u00e4chlich",
+    "4b": "Sagst morgens mit einer verd\u00e4chtig spezifischen Ausrede ab",
+    "4c": "Gehst hin, erz\u00e4hlst aber die ganze Zeit wie viel schwerer DEIN Umzug war",
+    "4d": "Sagst ja, versprichst aber am selben Tag 3 anderen Leuten verschiedene Dinge",
+    "5a": "\"Mir geht's gut\" (geht dir nicht gut)",
+    "5b": "Ignorierst sie einen Tag um \"Gef\u00fchle zu verarbeiten\"",
+    "5c": "Startest einen 20-min\u00fctigen Monolog \u00fcber DEINE Gef\u00fchle",
+    "5d": "Sagst nein und checkst sofort ihr Instagram",
+    "6a": "Gratulierst w\u00e4hrend du heimlich berechnest wie weit du zur\u00fck bist",
+    "6b": "Lenkst das Gespr\u00e4ch auf DEINE Karriereprobleme",
+    "6c": "Versprichst eine Feier und verschiebst immer wieder",
+    "6d": "Schickst Gl\u00fcckw\u00fcnsche und l\u00e4sst sie eine Woche auf gelesen",
+    "7a": "Schreibst \"bin gleich da!\" obwohl du noch nicht losgegangen bist",
+    "7b": "Kommst sp\u00e4t und machst die Situation sofort \u00fcber DEINEN verr\u00fcckten Tag",
+    "7c": "Ignorierst \"wo bist du?\"-Nachrichten und tauchst auf als w\u00e4re nichts gewesen",
+    "7d": "Vergleichst mental deine P\u00fcnktlichkeit mit anderen und entscheidest, dass du besser bist"
+  },
+  "result": {
+    "title": "Deine toxische Eigenschaft ist...",
+    "desc": "Keine Sorge, jeder hat eine. Der erste Schritt ist Bewusstsein!",
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen dein toxisches Profil",
+    "tipsTitle": "Tipps zur Selbstverbesserung", "personalTips": "Personalisierte Wachstumstipps",
+    "retry": "Nochmal versuchen", "moreTests": "Mehr Tests", "sharePrompt": "Teile deine Ergebnisse!"
+  },
+  "tips": {
+    "ghoster": "Wenn du verschwinden willst, sende wenigstens eine kurze Antwort. \"Ich brauche etwas Zeit\" ist besser als Schweigen.",
+    "overPromiser": "Bevor du Ja sagst, warte 5 Sekunden. Pr\u00fcfe deinen Kalender. \"Lass mich dr\u00fcber nachdenken\" ist okay.",
+    "passiveAggressor": "\u00dcbe, deine Gef\u00fchle direkt zu benennen. \"Es hat mich verletzt, als...\" ist ehrlicher als \"mir geht's gut\".",
+    "mainCharacter": "Probiere die 2:1-Regel \u2014 stelle 2 Fragen \u00fcber andere, bevor du 1 Sache \u00fcber dich teilst.",
+    "serialCanceler": "Sage nur zu Pl\u00e4nen ja, die dich JETZT begeistern. Qualit\u00e4t > Quantit\u00e4t.",
+    "chronicComparer": "Entfolge Accounts, die Vergleiche ausl\u00f6sen. Denk dran: Du vergleichst dein Behind-the-Scenes mit deren Highlights.",
+    "general": "Selbstbewusstsein ist der erste Schritt zum Wachstum. Diesen Test zu machen zeigt emotionale Reife."
+  },
+  "share": {
+    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
+    "copy": "Link kopieren", "copied": "Kopiert!",
+    "twitterText": "Meine toxische Eigenschaft: {type}! Was ist deine? Finde es heraus:"
+  },
+  "related": {
+    "eqTest": "EQ-Test", "overthinkerTest": "\u00dcberdenker-Test", "stressResponse": "Stressreaktion",
+    "anxietyType": "Angst-Typ", "burnoutTest": "Burnout-Test", "redFlagTest": "Red-Flag-Test"
+  }
+}

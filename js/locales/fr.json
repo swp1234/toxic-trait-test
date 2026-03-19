@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Test de Trait Toxique - Quel est ton trait toxique ? | DopaBrain",
+    "description": "D\u00e9couvre ton trait toxique avec ce quiz amusant ! 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton type parmi 6 possibilit\u00e9s."
+  },
+  "accessibility": { "skipMain": "Aller au contenu principal" },
+  "app": { "title": "Test de Trait Toxique", "subtitle": "Quel est ton trait toxique ?" },
+  "intro": {
+    "title": "Quel est ton trait toxique ?",
+    "desc": "Tout le monde en a un. 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton trait toxique secret. Sans jugement, juste de l'auto-conscience.",
+    "chip1": "8 questions", "chip2": "~2 min", "chip3": "6 types",
+    "socialProof": "{count}+ personnes ont d\u00e9couvert leur trait toxique",
+    "disclaimer": "Ce test est uniquement pour le divertissement et la r\u00e9flexion, pas une \u00e9valuation clinique.",
+    "start": "D\u00e9couvrir mon trait toxique"
+  },
+  "types": {
+    "ghoster": "Le Fant\u00f4me", "ghosterDesc": "Dispara\u00eet quand \u00e7a devient s\u00e9rieux. \u00c9vite la confrontation.", "ghosterEmoji": "\ud83d\udc7b",
+    "overPromiser": "Le Sur-Prometteur", "overPromiserDesc": "Dit oui \u00e0 tout, tient la moiti\u00e9.", "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "Le Passif-Agressif", "passiveAggressorDesc": "\"Je vais bien\" = d\u00e9finitivement pas bien.", "passiveAggressorEmoji": "\ud83c\udfad",
+    "mainCharacter": "Le Personnage Principal", "mainCharacterDesc": "Chaque situation tourne autour de toi.", "mainCharacterEmoji": "\ud83d\udc51",
+    "serialCanceler": "L'Annuleur en S\u00e9rie", "serialCancelerDesc": "Fait des plans avec enthousiasme, puis trouve l'excuse parfaite.", "serialCancelerEmoji": "\ud83d\udcf1",
+    "chronicComparer": "Le Comparateur Chronique", "chronicComparerDesc": "Mesure le succ\u00e8s aux highlights des autres.", "chronicComparerEmoji": "\u2696\ufe0f"
+  },
+  "question": {
+    "0": "Ton ami t'envoie \"faut qu'on parle\". Que fais-tu ?",
+    "1": "Quelqu'un s'attribue le m\u00e9rite de ton id\u00e9e au travail.",
+    "2": "Tu as des plans avec des amis mais ton canap\u00e9 a l'air tr\u00e8s confortable.",
+    "3": "Ton ami poste de superbes photos de vacances pendant que tu travailles.",
+    "4": "Tu as promis d'aider un ami \u00e0 d\u00e9m\u00e9nager ce week-end.",
+    "5": "Quelqu'un te demande \"t'es f\u00e2ch\u00e9 contre moi ?\"",
+    "6": "Ton ami vient d'avoir une grosse promotion.",
+    "7": "Tu as 20 minutes de retard \u00e0 un rendez-vous."
+  },
+  "option": {
+    "0a": "Tu lis, tu paniques et tu ne r\u00e9ponds pas pendant 3 jours",
+    "0b": "Tu pr\u00e9pares imm\u00e9diatement un discours d'excuses",
+    "0c": "Tu r\u00e9ponds \"oui, quoi ?\" puis passes 4 heures \u00e0 analyser tous les sens possibles",
+    "0d": "Tu r\u00e9ponds \"mdr pareil\" sans lire le message en entier",
+    "1a": "Tu ne dis rien mais tu mets tout le monde en copie de l'email original",
+    "1b": "Tu les confrontes dans ta t\u00eate... en vrai tu souris et tu meurs \u00e0 l'int\u00e9rieur",
+    "1c": "Tu racontes comment TOI tu as eu cette id\u00e9e, ramenant tout \u00e0 ton g\u00e9nie",
+    "1d": "Tu te compares imm\u00e9diatement et doutes de tes capacit\u00e9s",
+    "2a": "Tu annules avec une excuse cr\u00e9ative peaufin\u00e9e toute la journ\u00e9e",
+    "2b": "Tu y vas mais te plains tout le temps d'\u00eatre fatigu\u00e9",
+    "2c": "Tu postes une photo du canap\u00e9 avec \"parfois le self-care gagne\" et ignores le groupe",
+    "2d": "Tu y vas et racontes \u00e0 tout le monde que tu as failli rester chez toi",
+    "3a": "Tu likes la photo en calculant int\u00e9rieurement leur vie vs la tienne",
+    "3b": "Tu planifies imm\u00e9diatement tes propres vacances pour les surpasser",
+    "3c": "Tu mets un commentaire de soutien puis te plains \u00e0 quelqu'un d'autre de l'injustice",
+    "3d": "Tu mutes leurs stories pour ta sant\u00e9 mentale et fais semblant de n'avoir rien vu",
+    "4a": "Tu arrives en retard avec un caf\u00e9 et tu supervises surtout",
+    "4b": "Tu annules le matin avec une excuse suspicieusement pr\u00e9cise",
+    "4c": "Tu y vas mais passes tout le temps \u00e0 raconter \u00e0 quel point TON d\u00e9m\u00e9nagement \u00e9tait pire",
+    "4d": "Tu dis oui mais promets aussi diff\u00e9rentes choses \u00e0 3 autres personnes le m\u00eame jour",
+    "5a": "\"Je vais bien\" (tu ne vas pas bien)",
+    "5b": "Tu les ignores une journ\u00e9e pour \"traiter tes \u00e9motions\"",
+    "5c": "Tu lances un monologue de 20 minutes sur TES sentiments",
+    "5d": "Tu dis non et v\u00e9rifies imm\u00e9diatement leur Instagram",
+    "6a": "Tu f\u00e9licites en calculant secr\u00e8tement combien tu es en retard",
+    "6b": "Tu tournes la conversation vers TES difficult\u00e9s de carri\u00e8re",
+    "6c": "Tu promets de les inviter \u00e0 f\u00eater et repousses sans cesse",
+    "6d": "Tu envoies des f\u00e9licitations et les laisses en vu pendant une semaine",
+    "7a": "Tu envoies \"j'arrive bient\u00f4t !\" sans \u00eatre sorti de chez toi",
+    "7b": "Tu arrives en retard et fais de la situation \u00e0 propos de TA journ\u00e9e folle",
+    "7c": "Tu ignores les messages \"t'es o\u00f9 ?\" et arrives comme si de rien n'\u00e9tait",
+    "7d": "Tu compares mentalement ta ponctualit\u00e9 \u00e0 celle des autres et d\u00e9cides que t'es mieux"
+  },
+  "result": {
+    "title": "Ton trait toxique est...",
+    "desc": "T'inqui\u00e8te pas, tout le monde en a un. La premi\u00e8re \u00e9tape c'est la prise de conscience !",
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent ton profil toxique",
+    "tipsTitle": "Conseils d'am\u00e9lioration", "personalTips": "Conseils de croissance personnalis\u00e9s",
+    "retry": "R\u00e9essayer", "moreTests": "Plus de tests", "sharePrompt": "Partage tes r\u00e9sultats !"
+  },
+  "tips": {
+    "ghoster": "Quand tu veux dispara\u00eetre, essaie d'envoyer au moins une courte r\u00e9ponse. \"J'ai besoin de temps\" c'est mieux que le silence.",
+    "overPromiser": "Avant de dire oui, attends 5 secondes. V\u00e9rifie ton agenda. C'est ok de dire \"laisse-moi y r\u00e9fl\u00e9chir\".",
+    "passiveAggressor": "Entra\u00eene-toi \u00e0 nommer tes sentiments directement. \"Je vais bien\" est moins honn\u00eate que \"\u00e7a m'a bless\u00e9 quand...\"",
+    "mainCharacter": "Essaie la r\u00e8gle 2:1 \u2014 pose 2 questions sur les autres avant de partager 1 chose sur toi.",
+    "serialCanceler": "N'accepte que les plans qui t'enthousiasment MAINTENANT. Qualit\u00e9 > quantit\u00e9.",
+    "chronicComparer": "D\u00e9sabonne-toi des comptes qui d\u00e9clenchent la comparaison. Rappelle-toi : tu compares tes coulisses \u00e0 leurs meilleurs moments.",
+    "general": "La conscience de soi est le premier pas vers la croissance. Avoir fait ce test montre de la maturit\u00e9 \u00e9motionnelle."
+  },
+  "share": {
+    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
+    "copy": "Copier le lien", "copied": "Copi\u00e9 !",
+    "twitterText": "Mon trait toxique : {type} ! Et toi ? D\u00e9couvre-le :"
+  },
+  "related": {
+    "eqTest": "Test EQ", "overthinkerTest": "Test Overthinking", "stressResponse": "R\u00e9ponse au stress",
+    "anxietyType": "Type d'anxi\u00e9t\u00e9", "burnoutTest": "Test Burnout", "redFlagTest": "Test Red Flag"
+  }
+}

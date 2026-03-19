@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Teste de Tra\u00e7o T\u00f3xico - Qual \u00e9 o seu tra\u00e7o t\u00f3xico? | DopaBrain",
+    "description": "Descubra seu tra\u00e7o t\u00f3xico com este quiz divertido! 8 cen\u00e1rios do dia a dia revelam seu tipo entre 6 possibilidades."
+  },
+  "accessibility": { "skipMain": "Ir para o conte\u00fado principal" },
+  "app": { "title": "Teste de Tra\u00e7o T\u00f3xico", "subtitle": "Qual \u00e9 o seu tra\u00e7o t\u00f3xico?" },
+  "intro": {
+    "title": "Qual \u00e9 o seu tra\u00e7o t\u00f3xico?",
+    "desc": "Todos t\u00eam um. 8 cen\u00e1rios do cotidiano revelam seu tra\u00e7o t\u00f3xico secreto. Sem julgamento, s\u00f3 autoconsci\u00eancia.",
+    "chip1": "8 perguntas", "chip2": "~2 min", "chip3": "6 tipos",
+    "socialProof": "{count}+ pessoas descobriram seu tra\u00e7o t\u00f3xico",
+    "disclaimer": "Este teste \u00e9 apenas para divers\u00e3o e reflex\u00e3o, n\u00e3o uma avalia\u00e7\u00e3o cl\u00ednica.",
+    "start": "Descobrir meu tra\u00e7o t\u00f3xico"
+  },
+  "types": {
+    "ghoster": "O Fantasma", "ghosterDesc": "Desaparece quando as coisas ficam s\u00e9rias. Evita confrontos.", "ghosterEmoji": "\ud83d\udc7b",
+    "overPromiser": "O Prometedor Excessivo", "overPromiserDesc": "Diz sim para tudo, cumpre metade.", "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "O Passivo-Agressivo", "passiveAggressorDesc": "\"T\u00f4 bem\" = definitivamente n\u00e3o est\u00e1 bem.", "passiveAggressorEmoji": "\ud83c\udfad",
+    "mainCharacter": "O Protagonista", "mainCharacterDesc": "Toda situa\u00e7\u00e3o de alguma forma se torna sobre voc\u00ea.", "mainCharacterEmoji": "\ud83d\udc51",
+    "serialCanceler": "O Cancelador Serial", "serialCancelerDesc": "Faz planos com entusiasmo, depois encontra a desculpa perfeita.", "serialCancelerEmoji": "\ud83d\udcf1",
+    "chronicComparer": "O Comparador Cr\u00f4nico", "chronicComparerDesc": "Mede o sucesso pelos highlights dos outros.", "chronicComparerEmoji": "\u2696\ufe0f"
+  },
+  "question": {
+    "0": "Seu amigo manda \"precisamos conversar\". O que voc\u00ea faz?",
+    "1": "Algu\u00e9m leva o cr\u00e9dito pela sua ideia no trabalho.",
+    "2": "Voc\u00ea tem planos com amigos mas seu sof\u00e1 parece muito confort\u00e1vel.",
+    "3": "Seu amigo posta fotos incr\u00edveis de f\u00e9rias enquanto voc\u00ea est\u00e1 trabalhando.",
+    "4": "Voc\u00ea prometeu ajudar um amigo a se mudar neste fim de semana.",
+    "5": "Algu\u00e9m pergunta \"voc\u00ea t\u00e1 com raiva de mim?\"",
+    "6": "Seu amigo acabou de receber uma grande promo\u00e7\u00e3o.",
+    "7": "Voc\u00ea est\u00e1 20 minutos atrasado para encontrar algu\u00e9m."
+  },
+  "option": {
+    "0a": "L\u00ea, entra em p\u00e2nico e n\u00e3o responde por 3 dias",
+    "0b": "Come\u00e7a a preparar um discurso de desculpas imediatamente",
+    "0c": "Responde \"o qu\u00ea?\" e passa 4 horas analisando significados",
+    "0d": "Responde \"kk eu tbm\" sem ler a mensagem toda",
+    "1a": "N\u00e3o diz nada mas coloca todos em c\u00f3pia no email original",
+    "1b": "Confronta na sua cabe\u00e7a... na vida real sorri e morre por dentro",
+    "1c": "Come\u00e7a a contar como VOC\u00ca pensou nisso, fazendo tudo sobre seu g\u00eanio",
+    "1d": "Imediatamente se compara e duvida da sua capacidade",
+    "2a": "Cancela com uma desculpa criativa que aperfei\u00e7oou o dia todo",
+    "2b": "Vai mas reclama o tempo todo de como est\u00e1 cansado",
+    "2c": "Posta foto do sof\u00e1 dizendo \"autocuidado vence\" e ignora o grupo",
+    "2d": "Vai e conta para todos que quase ficou em casa",
+    "3a": "Curte a foto enquanto calcula internamente a vida deles vs a sua",
+    "3b": "Come\u00e7a a planejar suas pr\u00f3prias f\u00e9rias para superar",
+    "3c": "Comenta algo de apoio e depois reclama com outro sobre a injusti\u00e7a da vida",
+    "3d": "Silencia os stories pela sua sa\u00fade mental e finge que n\u00e3o viu",
+    "4a": "Chega atrasado com caf\u00e9 e basicamente s\u00f3 supervisiona",
+    "4b": "Cancela de manh\u00e3 com uma desculpa suspeitamente espec\u00edfica",
+    "4c": "Vai mas passa o tempo todo contando como SUA \u00faltima mudan\u00e7a foi mais dif\u00edcil",
+    "4d": "Diz sim mas tamb\u00e9m promete coisas diferentes para mais 3 pessoas no mesmo dia",
+    "5a": "\"T\u00f4 bem\" (n\u00e3o est\u00e1 bem)",
+    "5b": "Ignora por um dia para \"processar sentimentos\"",
+    "5c": "Come\u00e7a um mon\u00f3logo de 20 minutos sobre SEUS sentimentos",
+    "5d": "Diz que n\u00e3o e imediatamente verifica o Instagram deles",
+    "6a": "Parabeniza enquanto secretamente calcula o quanto est\u00e1 atr\u00e1s",
+    "6b": "Transforma a conversa nas SUAS lutas profissionais",
+    "6c": "Promete levar para comemorar e fica remarcando",
+    "6d": "Manda parab\u00e9ns e deixa no visualizado por uma semana",
+    "7a": "Manda \"j\u00e1 t\u00f4 chegando!\" sem ter sa\u00eddo de casa",
+    "7b": "Chega atrasado e faz a situa\u00e7\u00e3o sobre como SEU dia foi louco",
+    "7c": "Ignora as mensagens de \"cad\u00ea vc?\" e chega como se nada tivesse acontecido",
+    "7d": "Compara mentalmente sua pontualidade com a dos outros e decide que \u00e9 melhor"
+  },
+  "result": {
+    "title": "Seu tra\u00e7o t\u00f3xico \u00e9...",
+    "desc": "N\u00e3o se preocupe, todos t\u00eam um. O primeiro passo \u00e9 a consci\u00eancia!",
+    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes compartilham seu perfil t\u00f3xico",
+    "tipsTitle": "Dicas de melhoria", "personalTips": "Dicas personalizadas",
+    "retry": "Tentar novamente", "moreTests": "Mais testes", "sharePrompt": "Compartilhe seus resultados!"
+  },
+  "tips": {
+    "ghoster": "Quando quiser desaparecer, tente enviar pelo menos uma resposta curta. \"Preciso de um tempo\" \u00e9 melhor que sil\u00eancio.",
+    "overPromiser": "Antes de dizer sim, pause 5 segundos. Verifique sua agenda. Tudo bem dizer \"deixa eu pensar\".",
+    "passiveAggressor": "Pratique nomear seus sentimentos diretamente. \"Me magoou quando...\" \u00e9 mais honesto que \"t\u00f4 bem\".",
+    "mainCharacter": "Tente a regra 2:1 \u2014 fa\u00e7a 2 perguntas sobre os outros antes de compartilhar 1 coisa sua.",
+    "serialCanceler": "S\u00f3 comprometa-se com planos que te animam AGORA. Qualidade > quantidade.",
+    "chronicComparer": "Deixe de seguir contas que provocam compara\u00e7\u00e3o. Lembre-se: voc\u00ea compara seus bastidores com os melhores momentos deles.",
+    "general": "Autoconsci\u00eancia \u00e9 o primeiro passo para o crescimento. Fazer este teste mostra maturidade emocional."
+  },
+  "share": {
+    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
+    "copy": "Copiar link", "copied": "Copiado!",
+    "twitterText": "Meu tra\u00e7o t\u00f3xico \u00e9: {type}! Qual \u00e9 o seu? Descubra:"
+  },
+  "related": {
+    "eqTest": "Teste EQ", "overthinkerTest": "Teste Overthinking", "stressResponse": "Resposta ao Estresse",
+    "anxietyType": "Tipo de Ansiedade", "burnoutTest": "Teste de Burnout", "redFlagTest": "Teste Red Flag"
+  }
+}

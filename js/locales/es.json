@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Test de Rasgo T\u00f3xico - \u00bfCu\u00e1l es tu rasgo t\u00f3xico? | DopaBrain",
+    "description": "\u00a1Descubre tu rasgo t\u00f3xico con este divertido quiz! 8 escenarios cotidianos revelan si eres El Fantasma, El Sobre-Prometedor o algo m\u00e1s."
+  },
+  "accessibility": { "skipMain": "Ir al contenido principal" },
+  "app": { "title": "Test de Rasgo T\u00f3xico", "subtitle": "\u00bfCu\u00e1l es tu rasgo t\u00f3xico?" },
+  "intro": {
+    "title": "\u00bfCu\u00e1l es tu rasgo t\u00f3xico?",
+    "desc": "Todos tenemos uno. 8 escenarios cotidianos revelan tu rasgo t\u00f3xico secreto. Sin juzgar, solo autoconciencia.",
+    "chip1": "8 preguntas", "chip2": "~2 min", "chip3": "6 tipos",
+    "socialProof": "{count}+ personas descubrieron su rasgo t\u00f3xico",
+    "disclaimer": "Este test es solo para diversi\u00f3n y reflexi\u00f3n, no una evaluaci\u00f3n cl\u00ednica.",
+    "start": "Descubrir mi rasgo t\u00f3xico"
+  },
+  "types": {
+    "ghoster": "El Fantasma", "ghosterDesc": "Desaparece cuando las cosas se ponen serias. Evita la confrontaci\u00f3n.", "ghosterEmoji": "\ud83d\udc7b",
+    "overPromiser": "El Sobre-Prometedor", "overPromiserDesc": "Dice s\u00ed a todo, cumple la mitad.", "overPromiserEmoji": "\u2728",
+    "passiveAggressor": "El Pasivo-Agresivo", "passiveAggressorDesc": "\"Estoy bien\" = definitivamente no est\u00e1 bien.", "passiveAggressorEmoji": "\ud83c\udfad",
+    "mainCharacter": "El Protagonista", "mainCharacterDesc": "Toda situaci\u00f3n de alguna manera se vuelve sobre ti.", "mainCharacterEmoji": "\ud83d\udc51",
+    "serialCanceler": "El Cancelador Serial", "serialCancelerDesc": "Hace planes con entusiasmo, luego encuentra la excusa perfecta.", "serialCancelerEmoji": "\ud83d\udcf1",
+    "chronicComparer": "El Comparador Cr\u00f3nico", "chronicComparerDesc": "Mide el \u00e9xito contra los highlights de los dem\u00e1s.", "chronicComparerEmoji": "\u2696\ufe0f"
+  },
+  "question": {
+    "0": "Tu amigo te escribe \"tenemos que hablar\". \u00bfQu\u00e9 haces?",
+    "1": "Alguien se lleva el cr\u00e9dito de tu idea en el trabajo.",
+    "2": "Tienes planes con amigos pero tu sof\u00e1 se ve muy c\u00f3modo.",
+    "3": "Tu amigo publica fotos incre\u00edbles de vacaciones mientras t\u00fa est\u00e1s trabajando.",
+    "4": "Prometiste ayudar a un amigo a mudarse este fin de semana.",
+    "5": "Alguien te pregunta \"\u00bfest\u00e1s enojado conmigo?\"",
+    "6": "Tu amigo acaba de recibir un gran ascenso.",
+    "7": "Llegas 20 minutos tarde a una cita."
+  },
+  "option": {
+    "0a": "Lo lees, entras en p\u00e1nico y no respondes por 3 d\u00edas",
+    "0b": "Empiezas a preparar un discurso de disculpa inmediatamente",
+    "0c": "Respondes \"\u00bfqu\u00e9 pas\u00f3?\" y pasas 4 horas analizando significados",
+    "0d": "Respondes \"jaja yo tambi\u00e9n\" sin leer el mensaje completo",
+    "1a": "No dices nada pero env\u00edas tu email original a todos en CC",
+    "1b": "Los confrontas en tu cabeza... en la vida real sonr\u00edes y mueres por dentro",
+    "1c": "Empiezas a contar c\u00f3mo T\u00da ideaste eso, haciendo todo sobre tu genialidad",
+    "1d": "Inmediatamente te comparas con ellos y dudas de tu capacidad",
+    "2a": "Cancelas con una excusa creativa que perfeccionaste todo el d\u00eda",
+    "2b": "Vas pero te quejas todo el tiempo de lo cansado que est\u00e1s",
+    "2c": "Publicas una foto del sof\u00e1 diciendo \"a veces el autocuidado gana\" e ignoras el chat",
+    "2d": "Vas y cuentas a todos que casi te quedas en casa",
+    "3a": "Le das like mientras calculas internamente c\u00f3mo su vida se compara con la tuya",
+    "3b": "Empiezas a planear tus propias vacaciones para superarlos",
+    "3c": "Comentas algo de apoyo y luego te quejas con otro de lo injusta que es la vida",
+    "3d": "Silencias sus historias por tu salud mental y finges que no las viste",
+    "4a": "Llegas tarde con caf\u00e9 y b\u00e1sicamente solo supervisas",
+    "4b": "Cancelas en la ma\u00f1ana con una excusa sospechosamente espec\u00edfica",
+    "4c": "Vas pero pasas todo el tiempo contando qu\u00e9 tan dif\u00edcil fue TU \u00faltima mudanza",
+    "4d": "Dices que s\u00ed pero tambi\u00e9n prometes cosas diferentes a 3 personas m\u00e1s ese d\u00eda",
+    "5a": "\"Estoy bien\" (no est\u00e1s bien)",
+    "5b": "Los ignoras un d\u00eda para \"procesar tus sentimientos\"",
+    "5c": "Inicias un mon\u00f3logo de 20 minutos sobre TUS sentimientos",
+    "5d": "Dices que no e inmediatamente revisas su Instagram",
+    "6a": "Los felicitas mientras secretamente calculas cu\u00e1nto te quedaste atr\u00e1s",
+    "6b": "Conviertes la conversaci\u00f3n en TUS luchas profesionales",
+    "6c": "Prometes llevarlos a celebrar y sigues reprogramando",
+    "6d": "Env\u00edas felicitaciones y los dejas en visto una semana",
+    "7a": "Env\u00edas \"\u00a1ya casi llego!\" sin haber salido de casa",
+    "7b": "Llegas tarde y haces la situaci\u00f3n sobre lo loco que fue TU d\u00eda",
+    "7c": "Ignoras los mensajes de \"\u00bfd\u00f3nde est\u00e1s?\" y llegas como si nada",
+    "7d": "Comparas mentalmente tu puntualidad con la de otros y decides que eres mejor"
+  },
+  "result": {
+    "title": "Tu rasgo t\u00f3xico es...",
+    "desc": "No te preocupes, todos tenemos uno. \u00a1El primer paso es la conciencia!",
+    "percentileStat": "Solo <strong>{percent}%</strong> de los participantes comparten tu perfil t\u00f3xico",
+    "tipsTitle": "Consejos de mejora", "personalTips": "Consejos personalizados",
+    "retry": "Intentar de nuevo", "moreTests": "M\u00e1s tests", "sharePrompt": "\u00a1Comparte tus resultados!"
+  },
+  "tips": {
+    "ghoster": "Cuando quieras desaparecer, intenta enviar al menos una respuesta corta. \"Necesito tiempo\" es mejor que el silencio.",
+    "overPromiser": "Antes de decir s\u00ed, pausa 5 segundos. Revisa tu calendario. Est\u00e1 bien decir \"d\u00e9jame pensarlo\".",
+    "passiveAggressor": "Practica nombrar tus sentimientos directamente. \"Me doli\u00f3 cuando...\" es m\u00e1s honesto que \"estoy bien\".",
+    "mainCharacter": "Prueba la regla 2:1 \u2014 haz 2 preguntas sobre otros antes de compartir 1 cosa tuya.",
+    "serialCanceler": "Solo compromete con planes que te emocionen AHORA MISMO. Calidad > cantidad.",
+    "chronicComparer": "Deja de seguir cuentas que provocan comparaci\u00f3n. Recuerda: comparas tu tras bambalinas con sus mejores momentos.",
+    "general": "La autoconciencia es el primer paso hacia el crecimiento. Tomar este test muestra madurez emocional."
+  },
+  "share": {
+    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
+    "copy": "Copiar enlace", "copied": "\u00a1Copiado!",
+    "twitterText": "Mi rasgo t\u00f3xico es: {type}! \u00bfCu\u00e1l es el tuyo? Desc\u00fabrelo:"
+  },
+  "related": {
+    "eqTest": "Test EQ", "overthinkerTest": "Test Sobrepensar", "stressResponse": "Respuesta al Estr\u00e9s",
+    "anxietyType": "Tipo de Ansiedad", "burnoutTest": "Test de Burnout", "redFlagTest": "Test Bandera Roja"
+  }
+}
