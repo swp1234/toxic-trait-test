@@ -1,17 +1,19 @@
 {
   "meta": {
-    "title": "Teste de Tra\u00e7o T\u00f3xico - Qual \u00e9 o seu tra\u00e7o t\u00f3xico? | DopaBrain",
-    "description": "Descubra seu tra\u00e7o t\u00f3xico com este quiz divertido! 8 cen\u00e1rios do dia a dia revelam seu tipo entre 6 possibilidades."
+    "title": "Teste de Padr\u00e3o de Autoconsci\u00eancia - Descubra seu padr\u00e3o oculto | DopaBrain",
+    "description": "Descubra seu padr\u00e3o comportamental oculto com este quiz perspicaz! 8 cen\u00e1rios do dia a dia revelam seu estilo \u00fanico de comunica\u00e7\u00e3o e relacionamento."
   },
   "accessibility": { "skipMain": "Ir para o conte\u00fado principal" },
-  "app": { "title": "Teste de Tra\u00e7o T\u00f3xico", "subtitle": "Qual \u00e9 o seu tra\u00e7o t\u00f3xico?" },
+  "app": { "title": "Teste de Padr\u00e3o de Autoconsci\u00eancia", "subtitle": "Descubra seu padr\u00e3o oculto" },
   "intro": {
-    "title": "Qual \u00e9 o seu tra\u00e7o t\u00f3xico?",
-    "desc": "Todos t\u00eam um. 8 cen\u00e1rios do cotidiano revelam seu tra\u00e7o t\u00f3xico secreto. Sem julgamento, s\u00f3 autoconsci\u00eancia.",
+    "title": "Qual \u00e9 o seu padr\u00e3o oculto?",
+    "desc": "Entender a si mesmo \u00e9 o primeiro passo para o crescimento. 8 cen\u00e1rios do cotidiano revelam seu padr\u00e3o comportamental \u00fanico.",
+    "value": "Autoconsci\u00eancia leva a melhores relacionamentos e crescimento pessoal.",
     "chip1": "8 perguntas", "chip2": "~2 min", "chip3": "6 tipos",
-    "socialProof": "{count}+ pessoas descobriram seu tra\u00e7o t\u00f3xico",
+    "socialProof": "{count}+ pessoas descobriram seu padr\u00e3o",
     "disclaimer": "Este teste \u00e9 apenas para divers\u00e3o e reflex\u00e3o, n\u00e3o uma avalia\u00e7\u00e3o cl\u00ednica.",
-    "start": "Descobrir meu tra\u00e7o t\u00f3xico"
+    "start": "Descobrir meu padr\u00e3o",
+    "seeTypes": "Ver os 6 tipos de padr\u00f5es"
   },
   "types": {
     "ghoster": "O Fantasma", "ghosterDesc": "Desaparece quando as coisas ficam s\u00e9rias. Evita confrontos.", "ghosterEmoji": "\ud83d\udc7b",
@@ -66,9 +68,9 @@
     "7d": "Compara mentalmente sua pontualidade com a dos outros e decide que \u00e9 melhor"
   },
   "result": {
-    "title": "Seu tra\u00e7o t\u00f3xico \u00e9...",
+    "title": "Seu padr\u00e3o \u00e9...",
     "desc": "N\u00e3o se preocupe, todos t\u00eam um. O primeiro passo \u00e9 a consci\u00eancia!",
-    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes compartilham seu perfil t\u00f3xico",
+    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes compartilham seu perfil de padr\u00e3o",
     "tipsTitle": "Dicas de melhoria", "personalTips": "Dicas personalizadas",
     "retry": "Tentar novamente", "moreTests": "Mais testes", "sharePrompt": "Compartilhe seus resultados!"
   },
@@ -84,7 +86,7 @@
   "share": {
     "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
     "copy": "Copiar link", "copied": "Copiado!",
-    "twitterText": "Meu tra\u00e7o t\u00f3xico \u00e9: {type}! Qual \u00e9 o seu? Descubra:"
+    "twitterText": "Meu padr\u00e3o comportamental: {type}! Qual \u00e9 o seu? Descubra:"
   },
   "related": {
     "eqTest": "Teste EQ", "overthinkerTest": "Teste Overthinking", "stressResponse": "Resposta ao Estresse",

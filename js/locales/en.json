@@ -1,24 +1,26 @@
 {
   "meta": {
-    "title": "Toxic Trait Test - What's Your Toxic Trait? | DopaBrain",
-    "description": "Discover your toxic trait with this fun personality quiz! 8 relatable scenarios reveal if you're The Ghoster, Over-Promiser, Passive-Aggressor, Main Character, Serial Canceler, or Chronic Comparer."
+    "title": "Self-Awareness Pattern Test - Discover Your Hidden Pattern | DopaBrain",
+    "description": "Discover your hidden behavioral pattern with this insightful personality quiz! 8 relatable scenarios reveal your unique communication and relationship style from 6 types."
   },
   "accessibility": {
     "skipMain": "Skip to main content"
   },
   "app": {
-    "title": "Toxic Trait Test",
-    "subtitle": "What's Your Toxic Trait?"
+    "title": "Self-Awareness Pattern Test",
+    "subtitle": "Discover Your Hidden Pattern"
   },
   "intro": {
-    "title": "What's Your Toxic Trait?",
-    "desc": "We all have one. 8 everyday scenarios reveal your secret toxic trait. No judgment, just self-awareness.",
+    "title": "What's Your Hidden Pattern?",
+    "desc": "Understanding yourself is the first step to growth. 8 everyday scenarios reveal your unique behavioral pattern.",
+    "value": "Self-awareness leads to better relationships and personal growth.",
     "chip1": "8 Questions",
     "chip2": "~2 min",
     "chip3": "6 Types",
-    "socialProof": "{count}+ people discovered their toxic trait",
+    "socialProof": "{count}+ people discovered their pattern",
     "disclaimer": "This test is for fun and self-reflection only. Not a clinical assessment.",
-    "start": "Expose My Toxic Trait"
+    "start": "Discover My Pattern",
+    "seeTypes": "See the 6 pattern types"
   },
   "types": {
     "ghoster": "The Ghoster",
@@ -85,9 +87,9 @@
     "7d": "Mentally compare your punctuality to everyone else's and decide you're still better"
   },
   "result": {
-    "title": "Your Toxic Trait Is...",
+    "title": "Your Pattern Is...",
     "desc": "Don't worry, we all have one. The first step is awareness!",
-    "percentileStat": "Only <strong>{percent}%</strong> of people share your exact toxic trait profile",
+    "percentileStat": "Only <strong>{percent}%</strong> of people share your exact pattern profile",
     "tipsTitle": "Self-Improvement Tips",
     "personalTips": "Personalized Growth Tips",
     "retry": "Try Again",
@@ -109,7 +111,7 @@
     "facebook": "Facebook",
     "copy": "Copy Link",
     "copied": "Copied!",
-    "twitterText": "My toxic trait is: {type}! What's yours? Find out:"
+    "twitterText": "My behavioral pattern is: {type}! What's yours? Find out:"
   },
   "related": {
     "eqTest": "EQ Test",

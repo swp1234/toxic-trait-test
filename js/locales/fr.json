@@ -1,17 +1,19 @@
 {
   "meta": {
-    "title": "Test de Trait Toxique - Quel est ton trait toxique ? | DopaBrain",
-    "description": "D\u00e9couvre ton trait toxique avec ce quiz amusant ! 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton type parmi 6 possibilit\u00e9s."
+    "title": "Test de Sch\u00e9ma de Conscience de Soi - D\u00e9couvre ton sch\u00e9ma cach\u00e9 | DopaBrain",
+    "description": "D\u00e9couvre ton sch\u00e9ma comportemental cach\u00e9 avec ce quiz perspicace ! 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton style unique de communication et de relation."
   },
   "accessibility": { "skipMain": "Aller au contenu principal" },
-  "app": { "title": "Test de Trait Toxique", "subtitle": "Quel est ton trait toxique ?" },
+  "app": { "title": "Test de Sch\u00e9ma de Conscience de Soi", "subtitle": "D\u00e9couvre ton sch\u00e9ma cach\u00e9" },
   "intro": {
-    "title": "Quel est ton trait toxique ?",
-    "desc": "Tout le monde en a un. 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton trait toxique secret. Sans jugement, juste de l'auto-conscience.",
+    "title": "Quel est ton sch\u00e9ma cach\u00e9 ?",
+    "desc": "Se comprendre soi-m\u00eame est le premier pas vers la croissance. 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton sch\u00e9ma comportemental unique.",
+    "value": "La conscience de soi m\u00e8ne \u00e0 de meilleures relations et une croissance personnelle.",
     "chip1": "8 questions", "chip2": "~2 min", "chip3": "6 types",
-    "socialProof": "{count}+ personnes ont d\u00e9couvert leur trait toxique",
+    "socialProof": "{count}+ personnes ont d\u00e9couvert leur sch\u00e9ma",
     "disclaimer": "Ce test est uniquement pour le divertissement et la r\u00e9flexion, pas une \u00e9valuation clinique.",
-    "start": "D\u00e9couvrir mon trait toxique"
+    "start": "D\u00e9couvrir mon sch\u00e9ma",
+    "seeTypes": "Voir les 6 types de sch\u00e9mas"
   },
   "types": {
     "ghoster": "Le Fant\u00f4me", "ghosterDesc": "Dispara\u00eet quand \u00e7a devient s\u00e9rieux. \u00c9vite la confrontation.", "ghosterEmoji": "\ud83d\udc7b",
@@ -66,9 +68,9 @@
     "7d": "Tu compares mentalement ta ponctualit\u00e9 \u00e0 celle des autres et d\u00e9cides que t'es mieux"
   },
   "result": {
-    "title": "Ton trait toxique est...",
+    "title": "Ton sch\u00e9ma est...",
     "desc": "T'inqui\u00e8te pas, tout le monde en a un. La premi\u00e8re \u00e9tape c'est la prise de conscience !",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent ton profil toxique",
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent ton profil de sch\u00e9ma",
     "tipsTitle": "Conseils d'am\u00e9lioration", "personalTips": "Conseils de croissance personnalis\u00e9s",
     "retry": "R\u00e9essayer", "moreTests": "Plus de tests", "sharePrompt": "Partage tes r\u00e9sultats !"
   },
@@ -84,7 +86,7 @@
   "share": {
     "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
     "copy": "Copier le lien", "copied": "Copi\u00e9 !",
-    "twitterText": "Mon trait toxique : {type} ! Et toi ? D\u00e9couvre-le :"
+    "twitterText": "Mon sch\u00e9ma comportemental : {type} ! Et toi ? D\u00e9couvre-le :"
   },
   "related": {
     "eqTest": "Test EQ", "overthinkerTest": "Test Overthinking", "stressResponse": "R\u00e9ponse au stress",

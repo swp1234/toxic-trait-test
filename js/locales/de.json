@@ -1,17 +1,19 @@
 {
   "meta": {
-    "title": "Toxische Eigenschaft Test - Was ist deine toxische Eigenschaft? | DopaBrain",
-    "description": "Entdecke deine toxische Eigenschaft mit diesem lustigen Quiz! 8 allt\u00e4gliche Szenarien zeigen deinen Typ aus 6 M\u00f6glichkeiten."
+    "title": "Selbsterkenntnis-Muster-Test - Entdecke dein verborgenes Muster | DopaBrain",
+    "description": "Entdecke dein verborgenes Verhaltensmuster mit diesem aufschlussreichen Quiz! 8 allt\u00e4gliche Szenarien zeigen deinen einzigartigen Kommunikations- und Beziehungsstil."
   },
   "accessibility": { "skipMain": "Zum Hauptinhalt springen" },
-  "app": { "title": "Toxische Eigenschaft Test", "subtitle": "Was ist deine toxische Eigenschaft?" },
+  "app": { "title": "Selbsterkenntnis-Muster-Test", "subtitle": "Entdecke dein verborgenes Muster" },
   "intro": {
-    "title": "Was ist deine toxische Eigenschaft?",
-    "desc": "Jeder hat eine. 8 Alltagsszenarien enth\u00fcllen deine geheime toxische Eigenschaft. Ohne Urteil, nur Selbsterkenntnis.",
+    "title": "Was ist dein verborgenes Muster?",
+    "desc": "Sich selbst zu verstehen ist der erste Schritt zum Wachstum. 8 Alltagsszenarien enth\u00fcllen dein einzigartiges Verhaltensmuster.",
+    "value": "Selbsterkenntnis f\u00fchrt zu besseren Beziehungen und pers\u00f6nlichem Wachstum.",
     "chip1": "8 Fragen", "chip2": "~2 Min", "chip3": "6 Typen",
-    "socialProof": "{count}+ Menschen haben ihre toxische Eigenschaft entdeckt",
+    "socialProof": "{count}+ Menschen haben ihr Muster entdeckt",
     "disclaimer": "Dieser Test dient nur zur Unterhaltung und Selbstreflexion, keine klinische Bewertung.",
-    "start": "Meine toxische Eigenschaft entdecken"
+    "start": "Mein Muster entdecken",
+    "seeTypes": "Die 6 Mustertypen ansehen"
   },
   "types": {
     "ghoster": "Der Geist", "ghosterDesc": "Verschwindet, wenn es ernst wird. Vermeidet Konfrontation.", "ghosterEmoji": "\ud83d\udc7b",
@@ -66,9 +68,9 @@
     "7d": "Vergleichst mental deine P\u00fcnktlichkeit mit anderen und entscheidest, dass du besser bist"
   },
   "result": {
-    "title": "Deine toxische Eigenschaft ist...",
+    "title": "Dein Muster ist...",
     "desc": "Keine Sorge, jeder hat eine. Der erste Schritt ist Bewusstsein!",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen dein toxisches Profil",
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen dein Musterprofil",
     "tipsTitle": "Tipps zur Selbstverbesserung", "personalTips": "Personalisierte Wachstumstipps",
     "retry": "Nochmal versuchen", "moreTests": "Mehr Tests", "sharePrompt": "Teile deine Ergebnisse!"
   },
@@ -84,7 +86,7 @@
   "share": {
     "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
     "copy": "Link kopieren", "copied": "Kopiert!",
-    "twitterText": "Meine toxische Eigenschaft: {type}! Was ist deine? Finde es heraus:"
+    "twitterText": "Mein Verhaltensmuster: {type}! Was ist deins? Finde es heraus:"
   },
   "related": {
     "eqTest": "EQ-Test", "overthinkerTest": "\u00dcberdenker-Test", "stressResponse": "Stressreaktion",

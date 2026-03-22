@@ -1,17 +1,19 @@
 {
   "meta": {
-    "title": "Test de Rasgo T\u00f3xico - \u00bfCu\u00e1l es tu rasgo t\u00f3xico? | DopaBrain",
-    "description": "\u00a1Descubre tu rasgo t\u00f3xico con este divertido quiz! 8 escenarios cotidianos revelan si eres El Fantasma, El Sobre-Prometedor o algo m\u00e1s."
+    "title": "Test de Patr\u00f3n de Autoconciencia - \u00bfCu\u00e1l es tu patr\u00f3n oculto? | DopaBrain",
+    "description": "\u00a1Descubre tu patr\u00f3n de comportamiento oculto con este quiz perspicaz! 8 escenarios cotidianos revelan tu estilo \u00fanico de comunicaci\u00f3n y relaci\u00f3n."
   },
   "accessibility": { "skipMain": "Ir al contenido principal" },
-  "app": { "title": "Test de Rasgo T\u00f3xico", "subtitle": "\u00bfCu\u00e1l es tu rasgo t\u00f3xico?" },
+  "app": { "title": "Test de Patr\u00f3n de Autoconciencia", "subtitle": "Descubre tu patr\u00f3n oculto" },
   "intro": {
-    "title": "\u00bfCu\u00e1l es tu rasgo t\u00f3xico?",
-    "desc": "Todos tenemos uno. 8 escenarios cotidianos revelan tu rasgo t\u00f3xico secreto. Sin juzgar, solo autoconciencia.",
+    "title": "\u00bfCu\u00e1l es tu patr\u00f3n oculto?",
+    "desc": "Comprenderte a ti mismo es el primer paso para crecer. 8 escenarios cotidianos revelan tu patr\u00f3n de comportamiento \u00fanico.",
+    "value": "La autoconciencia conduce a mejores relaciones y crecimiento personal.",
     "chip1": "8 preguntas", "chip2": "~2 min", "chip3": "6 tipos",
-    "socialProof": "{count}+ personas descubrieron su rasgo t\u00f3xico",
+    "socialProof": "{count}+ personas descubrieron su patr\u00f3n",
     "disclaimer": "Este test es solo para diversi\u00f3n y reflexi\u00f3n, no una evaluaci\u00f3n cl\u00ednica.",
-    "start": "Descubrir mi rasgo t\u00f3xico"
+    "start": "Descubrir mi patr\u00f3n",
+    "seeTypes": "Ver los 6 tipos de patrones"
   },
   "types": {
     "ghoster": "El Fantasma", "ghosterDesc": "Desaparece cuando las cosas se ponen serias. Evita la confrontaci\u00f3n.", "ghosterEmoji": "\ud83d\udc7b",
@@ -66,9 +68,9 @@
     "7d": "Comparas mentalmente tu puntualidad con la de otros y decides que eres mejor"
   },
   "result": {
-    "title": "Tu rasgo t\u00f3xico es...",
+    "title": "Tu patr\u00f3n es...",
     "desc": "No te preocupes, todos tenemos uno. \u00a1El primer paso es la conciencia!",
-    "percentileStat": "Solo <strong>{percent}%</strong> de los participantes comparten tu perfil t\u00f3xico",
+    "percentileStat": "Solo <strong>{percent}%</strong> de los participantes comparten tu perfil de patr\u00f3n",
     "tipsTitle": "Consejos de mejora", "personalTips": "Consejos personalizados",
     "retry": "Intentar de nuevo", "moreTests": "M\u00e1s tests", "sharePrompt": "\u00a1Comparte tus resultados!"
   },
@@ -84,7 +86,7 @@
   "share": {
     "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
     "copy": "Copiar enlace", "copied": "\u00a1Copiado!",
-    "twitterText": "Mi rasgo t\u00f3xico es: {type}! \u00bfCu\u00e1l es el tuyo? Desc\u00fabrelo:"
+    "twitterText": "Mi patr\u00f3n de comportamiento: {type}! \u00bfCu\u00e1l es el tuyo? Desc\u00fabrelo:"
   },
   "related": {
     "eqTest": "Test EQ", "overthinkerTest": "Test Sobrepensar", "stressResponse": "Respuesta al Estr\u00e9s",

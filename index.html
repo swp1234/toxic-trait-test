@@ -11,9 +11,9 @@
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
 
-  <title data-i18n="meta.title">Toxic Trait Test - What's Your Toxic Trait? | DopaBrain</title>
-  <meta name="description" data-i18n="meta.description" content="Discover your toxic trait with this fun personality quiz! 8 relatable scenarios reveal if you're The Ghoster, Over-Promiser, Passive-Aggressor, Main Character, Serial Canceler, or Chronic Comparer.">
-  <meta name="keywords" content="toxic trait test, toxic trait quiz, personality quiz, what's your toxic trait, ghoster test, passive aggressive test, free personality test">
+  <title data-i18n="meta.title">Self-Awareness Pattern Test - Discover Your Hidden Pattern | DopaBrain</title>
+  <meta name="description" data-i18n="meta.description" content="Discover your hidden behavioral pattern with this insightful personality quiz! 8 relatable scenarios reveal your unique communication and relationship style from 6 types.">
+  <meta name="keywords" content="self-awareness test, personality pattern quiz, behavioral style test, communication pattern, relationship style quiz, free personality test">
 
   <link rel="canonical" href="https://dopabrain.com/toxic-trait-test/">
   <meta name="theme-color" content="#e11d48">
@@ -24,8 +24,8 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-J8GSWM40TV');</script>
 
-  <meta property="og:title" content="What's Your Toxic Trait? Fun Personality Quiz">
-  <meta property="og:description" content="We all have one toxic trait. 8 everyday scenarios reveal yours - are you The Ghoster, The Over-Promiser, or something else? Takes 2 minutes!">
+  <meta property="og:title" content="Self-Awareness Pattern Test - What's Your Hidden Pattern?">
+  <meta property="og:description" content="Everyone has a unique behavioral pattern. 8 everyday scenarios reveal yours - discover your communication and relationship style! Takes 2 minutes.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dopabrain.com/toxic-trait-test/">
   <meta property="og:image" content="https://dopabrain.com/toxic-trait-test/icon-512.svg">
@@ -45,8 +45,8 @@
   <meta property="og:locale:alternate" content="fr_FR">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="What's Your Toxic Trait? Fun Personality Quiz">
-  <meta name="twitter:description" content="We all have one toxic trait. 8 scenarios reveal yours. Takes 2 min!">
+  <meta name="twitter:title" content="Self-Awareness Pattern Test - What's Your Hidden Pattern?">
+  <meta name="twitter:description" content="Everyone has a unique behavioral pattern. 8 scenarios reveal yours. Takes 2 min!">
   <meta name="twitter:image" content="https://dopabrain.com/toxic-trait-test/icon-512.svg">
 
   <link rel="alternate" hreflang="ko" href="https://dopabrain.com/toxic-trait-test/">
@@ -67,8 +67,8 @@
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Toxic Trait Test",
-    "description": "Discover your toxic trait through 8 fun, relatable everyday scenarios. Are you The Ghoster, Over-Promiser, Passive-Aggressor, Main Character, Serial Canceler, or Chronic Comparer?",
+    "name": "Self-Awareness Pattern Test",
+    "description": "Discover your hidden behavioral pattern through 8 fun, relatable everyday scenarios. Understand your communication and relationship style with 6 unique pattern types.",
     "url": "https://dopabrain.com/toxic-trait-test/",
     "image": "https://dopabrain.com/toxic-trait-test/icon-512.svg",
     "applicationCategory": "EntertainmentApplication",
@@ -135,7 +135,7 @@
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "DopaBrain", "item": "https://dopabrain.com/" },
       { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/tests/" },
-      { "@type": "ListItem", "position": 3, "name": "Toxic Trait Test", "item": "https://dopabrain.com/toxic-trait-test/" }
+      { "@type": "ListItem", "position": 3, "name": "Self-Awareness Pattern Test", "item": "https://dopabrain.com/toxic-trait-test/" }
     ]
   }
   </script>
@@ -278,7 +278,11 @@
       -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
       margin-bottom: 10px;
     }
-    .hero-subtitle { font-size: 0.95rem; color: var(--text-muted); max-width: 380px; margin: 0 auto 24px; }
+    .hero-subtitle { font-size: 0.95rem; color: var(--text-muted); max-width: 380px; margin: 0 auto 12px; }
+    .hero-value {
+      font-size: 0.85rem; color: var(--primary-light); max-width: 340px;
+      margin: 0 auto 24px; font-weight: 500; font-style: italic;
+    }
 
     .info-strip { display: flex; gap: 10px; justify-content: center; margin-bottom: 20px; flex-wrap: wrap; }
     .info-chip {
@@ -309,8 +313,20 @@
     .disclaimer {
       font-size: 0.78rem; color: var(--text-muted); text-align: center;
       padding: 10px 16px; background: var(--surface);
-      border-radius: var(--radius-sm); margin-bottom: 20px; border: 1px solid var(--border);
+      border-radius: var(--radius-sm); margin: 16px 0 0; border: 1px solid var(--border);
     }
+
+    .type-preview { margin-top: 20px; }
+    .type-preview-toggle {
+      display: block; text-align: center; font-size: 0.85rem;
+      color: var(--text-muted); cursor: pointer; padding: 10px;
+      list-style: none; transition: color 0.2s;
+    }
+    .type-preview-toggle::-webkit-details-marker { display: none; }
+    .type-preview-toggle::before { content: '\25B6 '; font-size: 0.7rem; transition: transform 0.2s; display: inline-block; }
+    .type-preview[open] .type-preview-toggle::before { content: '\25BC '; }
+    .type-preview-toggle:hover { color: var(--primary-light); }
+    .type-preview .type-grid { margin-top: 12px; }
 
     .btn {
       display: inline-flex; align-items: center; justify-content: center; gap: 8px;
@@ -468,8 +484,8 @@
   <div class="container" id="main">
     <header class="header">
       <div>
-        <h1 class="app-title" data-i18n="app.title">Toxic Trait Test</h1>
-        <p class="app-subtitle" data-i18n="app.subtitle">What's Your Toxic Trait?</p>
+        <h1 class="app-title" data-i18n="app.title">Self-Awareness Pattern Test</h1>
+        <p class="app-subtitle" data-i18n="app.subtitle">Discover Your Hidden Pattern</p>
       </div>
       <div class="header-controls">
         <button class="icon-btn" id="theme-btn" aria-label="Toggle theme">&#9728;&#65039;</button>
@@ -494,9 +510,10 @@
     <!-- Screen: Start -->
     <section id="screen-start" class="screen active">
       <div class="start-hero">
-        <span class="hero-icon">&#128520;</span>
-        <h2 class="hero-title" data-i18n="intro.title">What's Your Toxic Trait?</h2>
-        <p class="hero-subtitle" data-i18n="intro.desc">We all have one. 8 everyday scenarios reveal your secret toxic trait.</p>
+        <span class="hero-icon">&#128161;</span>
+        <h2 class="hero-title" data-i18n="intro.title">What's Your Hidden Pattern?</h2>
+        <p class="hero-subtitle" data-i18n="intro.desc">Understanding yourself is the first step to growth. 8 everyday scenarios reveal your unique behavioral pattern.</p>
+        <p class="hero-value" data-i18n="intro.value">Self-awareness leads to better relationships and personal growth.</p>
       </div>
 
       <div class="info-strip">
@@ -507,17 +524,21 @@
 
       <div class="social-proof" id="social-proof"></div>
 
-      <div class="type-grid">
-        <div class="type-card"><span class="type-emoji">&#128123;</span><span class="type-name" data-i18n="types.ghoster">The Ghoster</span></div>
-        <div class="type-card"><span class="type-emoji">&#10024;</span><span class="type-name" data-i18n="types.overPromiser">The Over-Promiser</span></div>
-        <div class="type-card"><span class="type-emoji">&#127917;</span><span class="type-name" data-i18n="types.passiveAggressor">The Passive-Aggressor</span></div>
-        <div class="type-card"><span class="type-emoji">&#128081;</span><span class="type-name" data-i18n="types.mainCharacter">The Main Character</span></div>
-        <div class="type-card"><span class="type-emoji">&#128241;</span><span class="type-name" data-i18n="types.serialCanceler">The Serial Canceler</span></div>
-        <div class="type-card"><span class="type-emoji">&#9878;&#65039;</span><span class="type-name" data-i18n="types.chronicComparer">The Chronic Comparer</span></div>
-      </div>
+      <button class="btn btn-primary" id="btn-start" data-i18n="intro.start">Discover My Pattern</button>
 
       <p class="disclaimer" data-i18n="intro.disclaimer">This test is for fun and self-reflection only.</p>
-      <button class="btn btn-primary" id="btn-start" data-i18n="intro.start">Expose My Toxic Trait</button>
+
+      <details class="type-preview">
+        <summary class="type-preview-toggle" data-i18n="intro.seeTypes">See the 6 pattern types</summary>
+        <div class="type-grid">
+          <div class="type-card"><span class="type-emoji">&#128123;</span><span class="type-name" data-i18n="types.ghoster">The Ghoster</span></div>
+          <div class="type-card"><span class="type-emoji">&#10024;</span><span class="type-name" data-i18n="types.overPromiser">The Over-Promiser</span></div>
+          <div class="type-card"><span class="type-emoji">&#127917;</span><span class="type-name" data-i18n="types.passiveAggressor">The Passive-Aggressor</span></div>
+          <div class="type-card"><span class="type-emoji">&#128081;</span><span class="type-name" data-i18n="types.mainCharacter">The Main Character</span></div>
+          <div class="type-card"><span class="type-emoji">&#128241;</span><span class="type-name" data-i18n="types.serialCanceler">The Serial Canceler</span></div>
+          <div class="type-card"><span class="type-emoji">&#9878;&#65039;</span><span class="type-name" data-i18n="types.chronicComparer">The Chronic Comparer</span></div>
+        </div>
+      </details>
     </section>
 
     <!-- Screen: Quiz -->
@@ -544,7 +565,7 @@
     <section id="screen-result" class="screen">
       <div class="result-hero">
         <span class="result-emoji" id="result-emoji"></span>
-        <p class="result-title-text" data-i18n="result.title">Your Toxic Trait Is...</p>
+        <p class="result-title-text" data-i18n="result.title">Your Pattern Is...</p>
         <h2 class="result-type-name" id="result-type-name"></h2>
         <p class="result-type-desc" id="result-type-desc"></p>
       </div>
@@ -664,7 +685,7 @@
     // ===== Social Proof =====
     function updateSocialProof() {
       const count = 12400 + Math.floor(Math.random() * 800);
-      const tpl = i18n.t('intro.socialProof', '{count}+ people discovered their toxic trait');
+      const tpl = i18n.t('intro.socialProof', '{count}+ people discovered their pattern');
       $('social-proof').innerHTML = tpl.replace('{count}', count.toLocaleString());
     }
 
@@ -751,7 +772,7 @@
       const pStat = $('percentile-stat');
       if (pStat) {
         const pct = 8 + Math.floor(Math.random() * 15);
-        const tpl = i18n.t('result.percentileStat', 'Only <strong>{percent}%</strong> share your profile');
+        const tpl = i18n.t('result.percentileStat', 'Only <strong>{percent}%</strong> share your pattern profile');
         pStat.innerHTML = tpl.replace('{percent}', pct);
       }
 

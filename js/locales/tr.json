@@ -1,17 +1,19 @@
 {
   "meta": {
-    "title": "Toksik \u00d6zellik Testi - Senin toksik \u00f6zelli\u011fin ne? | DopaBrain",
-    "description": "E\u011flenceli ki\u015filik testiyle toksik \u00f6zelli\u011fini ke\u015ffet! 8 g\u00fcnl\u00fck senaryo ile 6 tipten hangisi oldu\u011funu \u00f6\u011fren."
+    "title": "\u00d6z Fark\u0131ndal\u0131k Kal\u0131p Testi - Gizli kal\u0131b\u0131n\u0131 ke\u015ffet | DopaBrain",
+    "description": "Bu i\u00e7g\u00f6r\u00fcl\u00fc ki\u015filik testiyle gizli davran\u0131\u015f kal\u0131b\u0131n\u0131 ke\u015ffet! 8 g\u00fcnl\u00fck senaryo ile benzersiz ileti\u015fim ve ili\u015fki tarz\u0131n\u0131 \u00f6\u011fren."
   },
   "accessibility": { "skipMain": "Ana i\u00e7eri\u011fe atla" },
-  "app": { "title": "Toksik \u00d6zellik Testi", "subtitle": "Senin toksik \u00f6zelli\u011fin ne?" },
+  "app": { "title": "\u00d6z Fark\u0131ndal\u0131k Kal\u0131p Testi", "subtitle": "Gizli kal\u0131b\u0131n\u0131 ke\u015ffet" },
   "intro": {
-    "title": "Senin toksik \u00f6zelli\u011fin ne?",
-    "desc": "Herkesin bir tanesi var. 8 g\u00fcnl\u00fck senaryo gizli toksik \u00f6zelli\u011fini ortaya \u00e7\u0131kar\u0131r. Yarg\u0131s\u0131z, sadece fark\u0131ndal\u0131k.",
+    "title": "Gizli kal\u0131b\u0131n ne?",
+    "desc": "Kendini anlamak b\u00fcy\u00fcmenin ilk ad\u0131m\u0131d\u0131r. 8 g\u00fcnl\u00fck senaryo benzersiz davran\u0131\u015f kal\u0131b\u0131n\u0131 ortaya \u00e7\u0131kar\u0131r.",
+    "value": "\u00d6z fark\u0131ndal\u0131k daha iyi ili\u015fkilere ve ki\u015fisel b\u00fcy\u00fcmeye yol a\u00e7ar.",
     "chip1": "8 soru", "chip2": "~2 dk", "chip3": "6 tip",
-    "socialProof": "{count}+ ki\u015fi toksik \u00f6zelli\u011fini ke\u015ffetti",
+    "socialProof": "{count}+ ki\u015fi kal\u0131b\u0131n\u0131 ke\u015ffetti",
     "disclaimer": "Bu test sadece e\u011flence ve \u00f6z-d\u00fc\u015f\u00fcnce i\u00e7indir, klinik de\u011ferlendirme de\u011fildir.",
-    "start": "Toksik \u00f6zelli\u011fimi ke\u015ffet"
+    "start": "Kal\u0131b\u0131m\u0131 ke\u015ffet",
+    "seeTypes": "6 kal\u0131p tipini g\u00f6r"
   },
   "types": {
     "ghoster": "Hayalet", "ghosterDesc": "I\u015fler ciddile\u015fince kaybolur. Y\u00fczle\u015fmeden ka\u00e7\u0131n\u0131r.", "ghosterEmoji": "\ud83d\udc7b",
@@ -66,9 +68,9 @@
     "7d": "Kendi dakikli\u011fini ba\u015fkalar\u0131yla k\u0131yasl\u0131yorsun ve hala daha iyi oldu\u011funa karar veriyorsun"
   },
   "result": {
-    "title": "Senin toksik \u00f6zelli\u011fin...",
+    "title": "Senin kal\u0131b\u0131n...",
     "desc": "Endi\u015felenme, herkesin bir tanesi var. \u0130lk ad\u0131m fark\u0131ndal\u0131k!",
-    "percentileStat": "Kat\u0131l\u0131mc\u0131lar\u0131n sadece <strong>{percent}%</strong>'i senin toksik \u00f6zellik profiline sahip",
+    "percentileStat": "Kat\u0131l\u0131mc\u0131lar\u0131n sadece <strong>{percent}%</strong>'i senin kal\u0131p profiline sahip",
     "tipsTitle": "\u00d6z-geli\u015fim ipular\u0131", "personalTips": "Ki\u015fisel b\u00fcy\u00fcme ipular\u0131",
     "retry": "Tekrar dene", "moreTests": "Daha fazla test", "sharePrompt": "Sonular\u0131n\u0131 payla\u015f!"
   },
@@ -84,7 +86,7 @@
   "share": {
     "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
     "copy": "Link kopyala", "copied": "Kopyaland\u0131!",
-    "twitterText": "Benim toksik \u00f6zelli\u011fim: {type}! Seninki ne? \u00d6\u011fren:"
+    "twitterText": "Benim davran\u0131\u015f kal\u0131b\u0131m: {type}! Seninki ne? \u00d6\u011fren:"
   },
   "related": {
     "eqTest": "EQ Testi", "overthinkerTest": "A\u015f\u0131r\u0131 D\u00fc\u015f\u00fcnme Testi", "stressResponse": "Stres Tepkisi",

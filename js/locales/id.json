@@ -1,17 +1,19 @@
 {
   "meta": {
-    "title": "Tes Sifat Toxic - Apa sifat toxicmu? | DopaBrain",
-    "description": "Temukan sifat toxicmu dengan kuis kepribadian seru ini! 8 skenario sehari-hari mengungkap tipe kamu dari 6 kemungkinan."
+    "title": "Tes Pola Kesadaran Diri - Temukan pola tersembunyimu | DopaBrain",
+    "description": "Temukan pola perilaku tersembunyimu dengan kuis kepribadian mendalam ini! 8 skenario sehari-hari mengungkap gaya komunikasi dan hubunganmu yang unik."
   },
   "accessibility": { "skipMain": "Langsung ke konten utama" },
-  "app": { "title": "Tes Sifat Toxic", "subtitle": "Apa sifat toxicmu?" },
+  "app": { "title": "Tes Pola Kesadaran Diri", "subtitle": "Temukan pola tersembunyimu" },
   "intro": {
-    "title": "Apa sifat toxicmu?",
-    "desc": "Semua orang punya satu. 8 skenario sehari-hari mengungkap sifat toxic rahasiamu. Tanpa menghakimi, hanya kesadaran diri.",
+    "title": "Apa pola tersembunyimu?",
+    "desc": "Memahami diri sendiri adalah langkah pertama menuju pertumbuhan. 8 skenario sehari-hari mengungkap pola perilakumu yang unik.",
+    "value": "Kesadaran diri mengarah pada hubungan yang lebih baik dan pertumbuhan pribadi.",
     "chip1": "8 pertanyaan", "chip2": "~2 menit", "chip3": "6 tipe",
-    "socialProof": "{count}+ orang telah menemukan sifat toxic mereka",
+    "socialProof": "{count}+ orang telah menemukan pola mereka",
     "disclaimer": "Tes ini hanya untuk hiburan dan refleksi diri, bukan penilaian klinis.",
-    "start": "Temukan sifat toxicku"
+    "start": "Temukan polaku",
+    "seeTypes": "Lihat 6 tipe pola"
   },
   "types": {
     "ghoster": "Si Penghilang", "ghosterDesc": "Menghilang saat situasi jadi serius. Ahli menghindari konfrontasi.", "ghosterEmoji": "\ud83d\udc7b",
@@ -66,9 +68,9 @@
     "7d": "Membandingkan ketepatan waktumu dengan orang lain dan memutuskan kamu masih lebih baik"
   },
   "result": {
-    "title": "Sifat toxicmu adalah...",
+    "title": "Polamu adalah...",
     "desc": "Jangan khawatir, semua orang punya satu. Langkah pertama adalah kesadaran!",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki profil toxic yang sama denganmu",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki profil pola yang sama denganmu",
     "tipsTitle": "Tips perbaikan diri", "personalTips": "Tips pertumbuhan personal",
     "retry": "Coba lagi", "moreTests": "Tes lainnya", "sharePrompt": "Bagikan hasilmu!"
   },
@@ -84,7 +86,7 @@
   "share": {
     "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
     "copy": "Salin link", "copied": "Tersalin!",
-    "twitterText": "Sifat toxicku: {type}! Punyamu apa? Cari tahu:"
+    "twitterText": "Pola perilakuku: {type}! Punyamu apa? Cari tahu:"
   },
   "related": {
     "eqTest": "Tes EQ", "overthinkerTest": "Tes Overthinking", "stressResponse": "Respons Stres",
