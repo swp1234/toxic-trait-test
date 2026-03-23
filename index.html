@@ -381,6 +381,24 @@
     .option-text { font-size: 0.92rem; line-height: 1.5; color: var(--text); padding-top: 2px; }
 
     .result-hero { text-align: center; padding: 28px 0 20px; }
+    /* Analyzing screen */
+    .analyzing-overlay { position: fixed; inset: 0; z-index: 9000; display: flex; flex-direction: column; align-items: center; justify-content: center; background: var(--bg); gap: 20px; }
+    .analyzing-spinner { width: 60px; height: 60px; border: 4px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .analyzing-text { font-size: 1rem; color: var(--text-muted); animation: pulse 1.5s ease-in-out infinite; }
+    .analyzing-progress { width: 200px; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .analyzing-fill { height: 100%; background: linear-gradient(90deg, var(--primary), #fb7185); border-radius: 3px; transition: width 0.4s ease; width: 0%; }
+
+    /* Dimension bars */
+    .dim-section { margin: 20px 0; }
+    .dim-section h3 { font-size: 14px; color: var(--text-muted); margin-bottom: 12px; text-align: center; }
+    .dim-bar-item { margin-bottom: 14px; }
+    .dim-bar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+    .dim-bar-label { font-size: 13px; color: var(--text); font-weight: 500; }
+    .dim-bar-pct { font-size: 13px; font-weight: 700; color: var(--primary); }
+    .dim-bar-track { height: 8px; background: var(--border); border-radius: 4px; overflow: hidden; }
+    .dim-bar-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; width: 0%; }
+
     .result-emoji { font-size: 5rem; margin-bottom: 16px; display: block; filter: drop-shadow(0 0 20px rgba(225,29,72,0.5)); }
     .result-title-text { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 8px; }
     .result-type-name {
@@ -569,6 +587,13 @@
       <div class="options-list" id="options-list"></div>
     </section>
 
+    <!-- Analyzing overlay -->
+    <div class="analyzing-overlay hidden" id="analyzing-overlay">
+      <div class="analyzing-spinner"></div>
+      <p class="analyzing-text" id="analyzing-text">Analyzing your patterns...</p>
+      <div class="analyzing-progress"><div class="analyzing-fill" id="analyzing-fill"></div></div>
+    </div>
+
     <!-- Screen: Result -->
     <section id="screen-result" class="screen">
       <div class="result-hero">
@@ -576,6 +601,11 @@
         <p class="result-title-text" data-i18n="result.title">Your Pattern Is...</p>
         <h2 class="result-type-name" id="result-type-name"></h2>
         <p class="result-type-desc" id="result-type-desc"></p>
+      </div>
+
+      <div class="dim-section" id="dim-section">
+        <h3 data-i18n="result.breakdown">Pattern Breakdown</h3>
+        <div id="dim-bars"></div>
       </div>
 
       <div class="ad-banner" id="result-ad">
@@ -592,6 +622,7 @@
       </div>
 
       <div class="share-row">
+        <button class="share-btn" id="btn-save-card" style="background:var(--primary);color:#fff;border-color:var(--primary)">&#128248; Save</button>
         <button class="share-btn kakao" id="btn-kakao" data-i18n="share.kakao">KakaoTalk</button>
         <button class="share-btn twitter" id="btn-twitter">&#120143; <span data-i18n="share.twitter">Twitter</span></button>
         <button class="share-btn facebook" id="btn-facebook" data-i18n="share.facebook">Facebook</button>
@@ -773,9 +804,35 @@
           currentQ++;
           renderQuestion(currentQ);
         } else {
-          showResult();
+          showAnalyzing();
         }
       }, 600);
+    }
+
+    // ===== Analyzing Animation =====
+    function showAnalyzing() {
+      var overlay = $('analyzing-overlay');
+      var fill = $('analyzing-fill');
+      var text = $('analyzing-text');
+      overlay.classList.remove('hidden');
+      var steps = [
+        [25, i18n.t('analyzing.step1', 'Scanning your responses...')],
+        [50, i18n.t('analyzing.step2', 'Matching behavior patterns...')],
+        [75, i18n.t('analyzing.step3', 'Comparing with 12,000+ profiles...')],
+        [100, i18n.t('analyzing.step4', 'Pattern identified!')]
+      ];
+      var delay = 0;
+      steps.forEach(function(step, idx) {
+        delay += 500 + Math.random() * 300;
+        setTimeout(function() {
+          fill.style.width = step[0] + '%';
+          text.textContent = step[1];
+        }, delay);
+      });
+      setTimeout(function() {
+        overlay.classList.add('hidden');
+        showResult();
+      }, delay + 600);
     }
 
     // ===== Result =====
@@ -804,6 +861,22 @@
       const generalTip = document.createElement('li');
       generalTip.textContent = i18n.t('tips.general');
       tipsList.appendChild(generalTip);
+
+      // Dimension bars
+      var dimBars = $('dim-bars');
+      dimBars.innerHTML = '';
+      var maxScore = Math.max.apply(null, scores) || 1;
+      var typeColors = ['#e11d48', '#f97316', '#8b5cf6', '#eab308', '#06b6d4', '#10b981'];
+      TYPES.forEach(function(t, idx) {
+        var pct = Math.round((scores[idx] / maxScore) * 100);
+        var bar = document.createElement('div');
+        bar.className = 'dim-bar-item';
+        bar.innerHTML = '<div class="dim-bar-header"><span class="dim-bar-label">' + i18n.t('types.' + t) + '</span><span class="dim-bar-pct" style="color:' + typeColors[idx] + '">' + pct + '%</span></div><div class="dim-bar-track"><div class="dim-bar-fill" style="background:' + typeColors[idx] + '" data-width="' + pct + '"></div></div>';
+        dimBars.appendChild(bar);
+      });
+      requestAnimationFrame(function() {
+        document.querySelectorAll('.dim-bar-fill').forEach(function(el) { el.style.width = el.dataset.width + '%'; });
+      });
 
       // Percentile
       const pStat = $('percentile-stat');
@@ -873,6 +946,33 @@
     }
 
     // ===== Share =====
+    $('btn-save-card').addEventListener('click', function() {
+      if (typeof ResultCard === 'undefined') return;
+      var btn = this;
+      btn.textContent = '⏳...';
+      btn.disabled = true;
+      var type = getResultType();
+      var typeName = i18n.t('types.' + type);
+      var typeEmoji = i18n.t('types.' + type + 'Emoji');
+      var maxScore = Math.max.apply(null, scores) || 1;
+      var typeColors = ['#e11d48', '#f97316', '#8b5cf6', '#eab308', '#06b6d4', '#10b981'];
+      var dims = TYPES.map(function(t, idx) {
+        return { label: i18n.t('types.' + t), pct: Math.round((scores[idx] / maxScore) * 100), color: typeColors[idx] };
+      });
+      ResultCard.download({
+        appName: 'Self-Awareness Pattern Test',
+        typeName: typeName,
+        typeEmoji: typeEmoji,
+        dimensions: dims,
+        primaryColor: '#e11d48',
+        tagline: 'dopabrain.com/toxic-trait-test',
+        ctaText: i18n.t('intro.startBtn', 'Take the Test →'),
+      }, 'pattern-test-result.png').then(function() {
+        btn.textContent = '✅ Saved!';
+        setTimeout(function() { btn.textContent = '📸 Save'; btn.disabled = false; }, 2000);
+      });
+    });
+
     $('btn-kakao').addEventListener('click', () => {
       const type = i18n.t('types.' + getResultType());
       const url = 'https://dopabrain.com/toxic-trait-test/';
@@ -986,6 +1086,7 @@
     if (typeof Haptic !== 'undefined') Haptic.init();
   })();
   </script>
+  <script src="/portal/js/result-card.js" defer></script>
   <script src="/portal/js/cross-promo.js" defer></script>
 </body>
 </html>
