@@ -221,6 +221,8 @@
       animation: spin 0.8s linear infinite;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes scrollCarousel { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; } }
 
     .ad-banner {
       width: 100%; text-align: center; padding: 8px 0;
@@ -516,6 +518,24 @@
         <p class="hero-value" data-i18n="intro.value">Self-awareness leads to better relationships and personal growth.</p>
       </div>
 
+      <!-- Type carousel for engagement -->
+      <div style="overflow:hidden;margin:16px -16px;padding:8px 0;">
+        <div style="display:flex;gap:10px;animation:scrollCarousel 18s linear infinite;width:max-content;">
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#128123;</span><span style="font-size:13px;font-weight:600;color:var(--primary-light);">The Ghoster</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#10024;</span><span style="font-size:13px;font-weight:600;color:#f59e0b;">The Over-Promiser</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#127917;</span><span style="font-size:13px;font-weight:600;color:#6366f1;">The Passive-Aggressor</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#128081;</span><span style="font-size:13px;font-weight:600;color:#ef4444;">The Main Character</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#128241;</span><span style="font-size:13px;font-weight:600;color:#10b981;">The Serial Canceler</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#9878;&#65039;</span><span style="font-size:13px;font-weight:600;color:#8b5cf6;">The Chronic Comparer</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#128123;</span><span style="font-size:13px;font-weight:600;color:var(--primary-light);">The Ghoster</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#10024;</span><span style="font-size:13px;font-weight:600;color:#f59e0b;">The Over-Promiser</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#127917;</span><span style="font-size:13px;font-weight:600;color:#6366f1;">The Passive-Aggressor</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#128081;</span><span style="font-size:13px;font-weight:600;color:#ef4444;">The Main Character</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#128241;</span><span style="font-size:13px;font-weight:600;color:#10b981;">The Serial Canceler</span></div>
+          <div style="display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--surface);border:1px solid var(--border);border-radius:20px;white-space:nowrap;flex-shrink:0;"><span>&#9878;&#65039;</span><span style="font-size:13px;font-weight:600;color:#8b5cf6;">The Chronic Comparer</span></div>
+        </div>
+      </div>
+
       <div class="info-strip">
         <div class="info-chip">&#128172; <span data-i18n="intro.chip1">8 Questions</span></div>
         <div class="info-chip">&#9201;&#65039; <span data-i18n="intro.chip2">~2 min</span></div>
@@ -527,18 +547,6 @@
       <button class="btn btn-primary" id="btn-start" data-i18n="intro.start">Discover My Pattern</button>
 
       <p class="disclaimer" data-i18n="intro.disclaimer">This test is for fun and self-reflection only.</p>
-
-      <details class="type-preview">
-        <summary class="type-preview-toggle" data-i18n="intro.seeTypes">See the 6 pattern types</summary>
-        <div class="type-grid">
-          <div class="type-card"><span class="type-emoji">&#128123;</span><span class="type-name" data-i18n="types.ghoster">The Ghoster</span></div>
-          <div class="type-card"><span class="type-emoji">&#10024;</span><span class="type-name" data-i18n="types.overPromiser">The Over-Promiser</span></div>
-          <div class="type-card"><span class="type-emoji">&#127917;</span><span class="type-name" data-i18n="types.passiveAggressor">The Passive-Aggressor</span></div>
-          <div class="type-card"><span class="type-emoji">&#128081;</span><span class="type-name" data-i18n="types.mainCharacter">The Main Character</span></div>
-          <div class="type-card"><span class="type-emoji">&#128241;</span><span class="type-name" data-i18n="types.serialCanceler">The Serial Canceler</span></div>
-          <div class="type-card"><span class="type-emoji">&#9878;&#65039;</span><span class="type-name" data-i18n="types.chronicComparer">The Chronic Comparer</span></div>
-        </div>
-      </details>
     </section>
 
     <!-- Screen: Quiz -->
@@ -633,6 +641,10 @@
             <span class="related-emoji">&#x1F9F8;</span>
             <span class="related-name">Inner Child Test</span>
           </a>
+          <a href="/trauma-response/" class="related-card" style="--card-color: #e11d48">
+            <span class="related-emoji">&#x1F6A8;</span>
+            <span class="related-name">Trauma Response</span>
+          </a>
         </div>
       </div>
     </section>
@@ -650,6 +662,7 @@
       <a href="/eq-test/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">&#x1F9E0; EQ Test</a>
       <a href="/attachment-style/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">&#x1F496; Attachment Style</a>
       <a href="/hsp-test/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">&#x1F338; HSP Test</a>
+      <a href="/trauma-response/" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">&#x1F6A8; Trauma Response</a>
       <a href="/portal/blog/en/stress-management-techniques-guide.html" style="padding:6px 12px;background:rgba(255,255,255,0.08);border-radius:8px;text-decoration:none;color:inherit;font-size:13px;">&#x1F4D6; Stress Guide</a>
     </div>
   </section>
