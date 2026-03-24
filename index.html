@@ -1052,6 +1052,15 @@
       updateSocialProof();
     });
 
+    // Engagement signal — fires once after 5s to prevent false bounce
+    let engageFired = false;
+    setTimeout(() => {
+      if (!engageFired && typeof gtag !== 'undefined') {
+        engageFired = true;
+        gtag('event', 'page_engage', { event_category: 'toxic_trait_test', engagement_time_msec: 5000 });
+      }
+    }, 5000);
+
     // Hide loader with try-catch for i18n safety
     window.addEventListener('load', () => {
       setTimeout(() => {
