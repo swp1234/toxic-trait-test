@@ -273,6 +273,11 @@
     .screen.active { display: block; animation: fadeInUp 0.35s ease; }
 
     .start-hero { text-align: center; padding: 32px 0 24px; }
+    .hook-question {
+      font-size: 1.05rem; font-weight: 600; color: var(--primary-light);
+      margin-bottom: 20px; line-height: 1.5; letter-spacing: -0.01em;
+      opacity: 0; animation: fadeInUp 0.5s ease 0.2s forwards;
+    }
     .hero-icon { font-size: 4rem; margin-bottom: 16px; display: block; filter: drop-shadow(0 0 20px rgba(225,29,72,0.5)); }
     .hero-title {
       font-size: 1.8rem; font-weight: 800;
@@ -530,6 +535,7 @@
     <!-- Screen: Start -->
     <section id="screen-start" class="screen active">
       <div class="start-hero">
+        <p class="hook-question" data-i18n="intro.hook">Everyone has one blind spot they can't see. Do you know yours?</p>
         <span class="hero-icon">&#128161;</span>
         <h2 class="hero-title" data-i18n="intro.title">What's Your Hidden Pattern?</h2>
         <p class="hero-subtitle" data-i18n="intro.desc">Understanding yourself is the first step to growth. 8 everyday scenarios reveal your unique behavioral pattern.</p>

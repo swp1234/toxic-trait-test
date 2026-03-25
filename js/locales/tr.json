@@ -6,6 +6,7 @@
   "accessibility": { "skipMain": "Ana i\u00e7eri\u011fe atla" },
   "app": { "title": "\u00d6z Fark\u0131ndal\u0131k Kal\u0131p Testi", "subtitle": "Gizli kal\u0131b\u0131n\u0131 ke\u015ffet" },
   "intro": {
+    "hook": "Herkesin kendisinin göremediği bir kör noktası vardır. Seninkini biliyor musun?",
     "title": "Gizli kal\u0131b\u0131n ne?",
     "desc": "Kendini anlamak b\u00fcy\u00fcmenin ilk ad\u0131m\u0131d\u0131r. 8 g\u00fcnl\u00fck senaryo benzersiz davran\u0131\u015f kal\u0131b\u0131n\u0131 ortaya \u00e7\u0131kar\u0131r.",
     "value": "\u00d6z fark\u0131ndal\u0131k daha iyi ili\u015fkilere ve ki\u015fisel b\u00fcy\u00fcmeye yol a\u00e7ar.",

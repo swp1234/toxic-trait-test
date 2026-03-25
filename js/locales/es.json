@@ -6,6 +6,7 @@
   "accessibility": { "skipMain": "Ir al contenido principal" },
   "app": { "title": "Test de Patr\u00f3n de Autoconciencia", "subtitle": "Descubre tu patr\u00f3n oculto" },
   "intro": {
+    "hook": "Todos tienen un punto ciego que no pueden ver en sí mismos. ¿Conoces el tuyo?",
     "title": "\u00bfCu\u00e1l es tu patr\u00f3n oculto?",
     "desc": "Comprenderte a ti mismo es el primer paso para crecer. 8 escenarios cotidianos revelan tu patr\u00f3n de comportamiento \u00fanico.",
     "value": "La autoconciencia conduce a mejores relaciones y crecimiento personal.",

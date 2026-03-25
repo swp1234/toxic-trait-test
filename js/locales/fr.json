@@ -6,6 +6,7 @@
   "accessibility": { "skipMain": "Aller au contenu principal" },
   "app": { "title": "Test de Sch\u00e9ma de Conscience de Soi", "subtitle": "D\u00e9couvre ton sch\u00e9ma cach\u00e9" },
   "intro": {
+    "hook": "Tout le monde a un angle mort qu'il ne peut pas voir en lui-même. Tu connais le tien ?",
     "title": "Quel est ton sch\u00e9ma cach\u00e9 ?",
     "desc": "Se comprendre soi-m\u00eame est le premier pas vers la croissance. 8 sc\u00e9narios du quotidien r\u00e9v\u00e8lent ton sch\u00e9ma comportemental unique.",
     "value": "La conscience de soi m\u00e8ne \u00e0 de meilleures relations et une croissance personnelle.",

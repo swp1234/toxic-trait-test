@@ -6,6 +6,7 @@
   "accessibility": { "skipMain": "Langsung ke konten utama" },
   "app": { "title": "Tes Pola Kesadaran Diri", "subtitle": "Temukan pola tersembunyimu" },
   "intro": {
+    "hook": "Semua orang punya titik buta yang tidak bisa mereka lihat sendiri. Apakah kamu tahu milikmu?",
     "title": "Apa pola tersembunyimu?",
     "desc": "Memahami diri sendiri adalah langkah pertama menuju pertumbuhan. 8 skenario sehari-hari mengungkap pola perilakumu yang unik.",
     "value": "Kesadaran diri mengarah pada hubungan yang lebih baik dan pertumbuhan pribadi.",

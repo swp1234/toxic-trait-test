@@ -6,6 +6,7 @@
   "accessibility": { "skipMain": "Ir para o conte\u00fado principal" },
   "app": { "title": "Teste de Padr\u00e3o de Autoconsci\u00eancia", "subtitle": "Descubra seu padr\u00e3o oculto" },
   "intro": {
+    "hook": "Todo mundo tem um ponto cego que não consegue ver em si mesmo. Você conhece o seu?",
     "title": "Qual \u00e9 o seu padr\u00e3o oculto?",
     "desc": "Entender a si mesmo \u00e9 o primeiro passo para o crescimento. 8 cen\u00e1rios do cotidiano revelam seu padr\u00e3o comportamental \u00fanico.",
     "value": "Autoconsci\u00eancia leva a melhores relacionamentos e crescimento pessoal.",

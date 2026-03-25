@@ -6,6 +6,7 @@
   "accessibility": { "skipMain": "Zum Hauptinhalt springen" },
   "app": { "title": "Selbsterkenntnis-Muster-Test", "subtitle": "Entdecke dein verborgenes Muster" },
   "intro": {
+    "hook": "Jeder hat einen blinden Fleck, den er selbst nicht sehen kann. Kennst du deinen?",
     "title": "Was ist dein verborgenes Muster?",
     "desc": "Sich selbst zu verstehen ist der erste Schritt zum Wachstum. 8 Alltagsszenarien enth\u00fcllen dein einzigartiges Verhaltensmuster.",
     "value": "Selbsterkenntnis f\u00fchrt zu besseren Beziehungen und pers\u00f6nlichem Wachstum.",
