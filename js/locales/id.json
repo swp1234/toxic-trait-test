@@ -1,28 +1,44 @@
 {
   "meta": {
     "title": "Tes Pola Kesadaran Diri - Temukan pola tersembunyimu | DopaBrain",
-    "description": "Temukan pola perilaku tersembunyimu dengan kuis kepribadian mendalam ini! 8 skenario sehari-hari mengungkap gaya komunikasi dan hubunganmu yang unik."
+    "description": "Aktivitas buatan ini untuk refleksi pribadi, bukan diagnosis atau penilaian tervalidasi."
   },
-  "accessibility": { "skipMain": "Langsung ke konten utama" },
-  "app": { "title": "Tes Pola Kesadaran Diri", "subtitle": "Temukan pola tersembunyimu" },
+  "accessibility": {
+    "skipMain": "Langsung ke konten utama"
+  },
+  "app": {
+    "title": "Tes Pola Kesadaran Diri",
+    "subtitle": "Temukan pola tersembunyimu"
+  },
   "intro": {
     "hook": "Semua orang punya titik buta yang tidak bisa mereka lihat sendiri. Apakah kamu tahu milikmu?",
     "title": "Apa pola tersembunyimu?",
-    "desc": "Memahami diri sendiri adalah langkah pertama menuju pertumbuhan. 8 skenario sehari-hari mengungkap pola perilakumu yang unik.",
-    "value": "Kesadaran diri mengarah pada hubungan yang lebih baik dan pertumbuhan pribadi.",
-    "chip1": "8 pertanyaan", "chip2": "~2 menit", "chip3": "6 tipe",
-    "socialProof": "{count}+ orang telah menemukan pola mereka",
-    "disclaimer": "Tes ini hanya untuk hiburan dan refleksi diri, bukan penilaian klinis.",
+    "chip1": "8 pertanyaan",
+    "chip2": "~2 menit",
+    "chip3": "6 tipe",
     "start": "Temukan polaku",
-    "seeTypes": "Lihat 6 tipe pola"
+    "boundary": "Aktivitas buatan ini untuk refleksi pribadi, bukan diagnosis atau penilaian tervalidasi.",
+    "method": "Setiap jawaban menambah satu poin pada satu label; jika seri, label pertama digunakan."
   },
   "types": {
-    "ghoster": "Si Penghilang", "ghosterDesc": "Menghilang saat situasi jadi serius. Ahli menghindari konfrontasi.", "ghosterEmoji": "\ud83d\udc7b",
-    "overPromiser": "Si Tukang Janji", "overPromiserDesc": "Bilang iya ke semua hal, menepati setengahnya.", "overPromiserEmoji": "\u2728",
-    "passiveAggressor": "Si Pasif-Agresif", "passiveAggressorDesc": "\"Aku baik-baik aja\" = pasti tidak baik-baik aja.", "passiveAggressorEmoji": "\ud83c\udfad",
-    "mainCharacter": "Si Tokoh Utama", "mainCharacterDesc": "Setiap situasi entah bagaimana jadi tentang kamu.", "mainCharacterEmoji": "\ud83d\udc51",
-    "serialCanceler": "Si Tukang Batal", "serialCancelerDesc": "Antusias bikin rencana, lalu menemukan alasan sempurna untuk membatalkan.", "serialCancelerEmoji": "\ud83d\udcf1",
-    "chronicComparer": "Si Tukang Banding", "chronicComparerDesc": "Mengukur kesuksesan dari highlight orang lain.", "chronicComparerEmoji": "\u2696\ufe0f"
+    "ghoster": "Si Penghilang",
+    "ghosterDesc": "Menghilang saat situasi jadi serius. Ahli menghindari konfrontasi.",
+    "ghosterEmoji": "👻",
+    "overPromiser": "Si Tukang Janji",
+    "overPromiserDesc": "Bilang iya ke semua hal, menepati setengahnya.",
+    "overPromiserEmoji": "✨",
+    "passiveAggressor": "Si Pasif-Agresif",
+    "passiveAggressorDesc": "\"Aku baik-baik aja\" = pasti tidak baik-baik aja.",
+    "passiveAggressorEmoji": "🎭",
+    "mainCharacter": "Si Tokoh Utama",
+    "mainCharacterDesc": "Setiap situasi entah bagaimana jadi tentang kamu.",
+    "mainCharacterEmoji": "👑",
+    "serialCanceler": "Si Tukang Batal",
+    "serialCancelerDesc": "Antusias bikin rencana, lalu menemukan alasan sempurna untuk membatalkan.",
+    "serialCancelerEmoji": "📱",
+    "chronicComparer": "Si Tukang Banding",
+    "chronicComparerDesc": "Mengukur kesuksesan dari highlight orang lain.",
+    "chronicComparerEmoji": "⚖️"
   },
   "question": {
     "0": "Temanmu mengirim pesan \"kita perlu bicara\". Apa yang kamu lakukan?",
@@ -70,27 +86,29 @@
   },
   "result": {
     "title": "Polamu adalah...",
-    "desc": "Jangan khawatir, semua orang punya satu. Langkah pertama adalah kesadaran!",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki profil pola yang sama denganmu",
-    "tipsTitle": "Tips perbaikan diri", "personalTips": "Tips pertumbuhan personal",
-    "retry": "Coba lagi", "moreTests": "Tes lainnya", "sharePrompt": "Bagikan hasilmu!"
+    "boundary": "Label ini hanya menggambarkan pilihanmu di sini, bukan siapa dirimu.",
+    "calculation": "Delapan jawaban dihitung dengan metode yang dijelaskan di awal.",
+    "promptTitle": "Satu pertanyaan refleksi",
+    "promptLabel": "Satu langkah kecil",
+    "nextAction": "Buat rencana stres pribadi",
+    "retry": "Coba lagi",
+    "moreTests": "Tes lainnya"
   },
   "tips": {
     "ghoster": "Saat ingin menghilang, coba kirim balasan singkat saja. \"Aku butuh waktu\" lebih baik dari diam.",
     "overPromiser": "Sebelum bilang iya, jeda 5 detik. Cek kalendermu. Boleh kok bilang \"aku pikir-pikir dulu\".",
     "passiveAggressor": "Latih menyebutkan perasaanmu langsung. \"Aku tersakiti saat...\" lebih jujur dari \"aku baik-baik aja\".",
-    "mainCharacter": "Coba aturan 2:1 \u2014 tanyakan 2 hal tentang orang lain sebelum cerita 1 hal tentangmu.",
+    "mainCharacter": "Coba aturan 2:1 — tanyakan 2 hal tentang orang lain sebelum cerita 1 hal tentangmu.",
     "serialCanceler": "Hanya komit pada rencana yang membuatmu antusias SEKARANG. Kualitas > kuantitas.",
-    "chronicComparer": "Berhenti follow akun yang memicu perbandingan. Ingat: kamu membandingkan behind-the-scenes-mu dengan highlight mereka.",
-    "general": "Kesadaran diri adalah langkah pertama menuju pertumbuhan. Mengikuti tes ini menunjukkan kematangan emosional."
+    "chronicComparer": "Berhenti follow akun yang memicu perbandingan. Ingat: kamu membandingkan behind-the-scenes-mu dengan highlight mereka."
   },
   "share": {
-    "kakao": "KakaoTalk", "twitter": "Twitter", "facebook": "Facebook",
-    "copy": "Salin link", "copied": "Tersalin!",
-    "twitterText": "Pola perilakuku: {type}! Punyamu apa? Cari tahu:"
+    "action": "Bagikan aktivitas ini",
+    "text": "Coba refleksi pribadi tentang pola perilaku ini.",
+    "success": "Tautan aktivitas siap dibagikan."
   },
   "related": {
-    "eqTest": "Tes EQ", "overthinkerTest": "Tes Overthinking", "stressResponse": "Respons Stres",
-    "anxietyType": "Tipe Kecemasan", "burnoutTest": "Tes Burnout", "redFlagTest": "Tes Red Flag"
+    "overthinker": "Refleksi terlalu banyak berpikir",
+    "attachment": "Refleksi kelekatan"
   }
 }

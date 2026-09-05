@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Self-Awareness Pattern Test - Discover Your Hidden Pattern | DopaBrain",
-    "description": "Discover your hidden behavioral pattern with this insightful personality quiz! 8 relatable scenarios reveal your unique communication and relationship style from 6 types."
+    "description": "This author-created activity is for private reflection. It is not a diagnosis or validated assessment."
   },
   "accessibility": {
     "skipMain": "Skip to main content"
@@ -13,35 +13,32 @@
   "intro": {
     "hook": "Everyone has one blind spot they can't see. Do you know yours?",
     "title": "What's Your Hidden Pattern?",
-    "desc": "Understanding yourself is the first step to growth. 8 everyday scenarios reveal your unique behavioral pattern.",
-    "value": "Self-awareness leads to better relationships and personal growth.",
     "chip1": "8 Questions",
     "chip2": "~2 min",
     "chip3": "6 Types",
-    "socialProof": "{count}+ people discovered their pattern",
-    "disclaimer": "This test is for fun and self-reflection only. Not a clinical assessment.",
     "start": "Discover My Pattern",
-    "seeTypes": "See the 6 pattern types"
+    "boundary": "This author-created activity is for private reflection. It is not a diagnosis or validated assessment.",
+    "method": "Each answer adds one point to one matching label. The first matching label breaks a tie."
   },
   "types": {
     "ghoster": "The Ghoster",
     "ghosterDesc": "Disappears when things get real. Avoids confrontation at all costs.",
-    "ghosterEmoji": "\uD83D\uDC7B",
+    "ghosterEmoji": "👻",
     "overPromiser": "The Over-Promiser",
     "overPromiserDesc": "Says yes to everything, delivers on half. Good intentions, questionable follow-through.",
-    "overPromiserEmoji": "\u2728",
+    "overPromiserEmoji": "✨",
     "passiveAggressor": "The Passive-Aggressor",
     "passiveAggressorDesc": "\"I'm fine\" = definitely not fine. Master of the loaded sigh.",
-    "passiveAggressorEmoji": "\uD83C\uDFAD",
+    "passiveAggressorEmoji": "🎭",
     "mainCharacter": "The Main Character",
     "mainCharacterDesc": "Every situation somehow becomes about you. You didn't mean to steal the spotlight... or did you?",
-    "mainCharacterEmoji": "\uD83D\uDC51",
+    "mainCharacterEmoji": "👑",
     "serialCanceler": "The Serial Canceler",
     "serialCancelerDesc": "Makes plans enthusiastically, then finds the perfect excuse to cancel. Your couch is your soulmate.",
-    "serialCancelerEmoji": "\uD83D\uDCF1",
+    "serialCancelerEmoji": "📱",
     "chronicComparer": "The Chronic Comparer",
     "chronicComparerDesc": "Measures success against everyone else's highlight reel. Instagram is your frenemy.",
-    "chronicComparerEmoji": "\u2696\uFE0F"
+    "chronicComparerEmoji": "⚖️"
   },
   "question": {
     "0": "Your friend texts \"we need to talk.\" What do you do?",
@@ -89,37 +86,29 @@
   },
   "result": {
     "title": "Your Pattern Is...",
-    "desc": "Don't worry, we all have one. The first step is awareness!",
-    "percentileStat": "Only <strong>{percent}%</strong> of people share your exact pattern profile",
-    "tipsTitle": "Self-Improvement Tips",
-    "personalTips": "Personalized Growth Tips",
+    "boundary": "This label describes only the choices you made here, not who you are.",
+    "calculation": "Eight answers were counted using the method shown before the activity.",
+    "promptTitle": "One reflection prompt",
+    "promptLabel": "A small next step",
+    "nextAction": "Build a private stress plan",
     "retry": "Try Again",
-    "moreTests": "Explore More Tests",
-    "sharePrompt": "Share your results!"
+    "moreTests": "Explore More Tests"
   },
   "tips": {
     "ghoster": "Next time you feel like disappearing, try sending even a short reply. \"I need some time\" is better than silence.",
     "overPromiser": "Before saying yes, pause for 5 seconds. Check your calendar. It's okay to say \"let me think about it.\"",
     "passiveAggressor": "Practice naming your feelings directly. \"I felt hurt when...\" is more honest than \"I'm fine.\"",
-    "mainCharacter": "Try the 2:1 rule \u2014 ask 2 questions about others before sharing 1 thing about yourself.",
+    "mainCharacter": "Try the 2:1 rule — ask 2 questions about others before sharing 1 thing about yourself.",
     "serialCanceler": "Only commit to plans you'd be excited about RIGHT NOW. Quality > quantity of social commitments.",
-    "chronicComparer": "Unfollow accounts that trigger comparison. Remember: you're comparing your behind-the-scenes to their highlight reel.",
-    "general": "Self-awareness is the first step to growth. The fact that you took this test shows emotional maturity."
+    "chronicComparer": "Unfollow accounts that trigger comparison. Remember: you're comparing your behind-the-scenes to their highlight reel."
   },
   "share": {
-    "kakao": "KakaoTalk",
-    "twitter": "Twitter",
-    "facebook": "Facebook",
-    "copy": "Copy Link",
-    "copied": "Copied!",
-    "twitterText": "My behavioral pattern is: {type}! What's yours? Find out:"
+    "action": "Share this activity",
+    "text": "Try this private behavior-pattern reflection.",
+    "success": "Activity link ready to share."
   },
   "related": {
-    "eqTest": "EQ Test",
-    "overthinkerTest": "Overthinker Test",
-    "stressResponse": "Stress Response",
-    "anxietyType": "Anxiety Type",
-    "burnoutTest": "Burnout Test",
-    "redFlagTest": "Red Flag Test"
+    "overthinker": "Overthinker reflection",
+    "attachment": "Attachment reflection"
   }
 }
